@@ -74,24 +74,8 @@
     <Page1 Ref="5" type="Page" isKey="true">
       <Border>None;Black;2;Solid;False;4;Black</Border>
       <Brush>Transparent</Brush>
-      <Components isList="true" count="12">
-        <Text95 Ref="6" type="Text" isKey="true">
-          <Brush>Transparent</Brush>
-          <CanGrow>True</CanGrow>
-          <ClientRectangle>0,37,17.4,0</ClientRectangle>
-          <Conditions isList="true" count="0" />
-          <Editable>True</Editable>
-          <Font>Times New Roman,12</Font>
-          <HorAlignment>Width</HorAlignment>
-          <Margins>0,0,0,0</Margins>
-          <Name>Text95</Name>
-          <Page isRef="5" />
-          <Parent isRef="5" />
-          <TextBrush>Black</TextBrush>
-          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
-          <Type>Expression</Type>
-        </Text95>
-        <Text100 Ref="7" type="Text" isKey="true">
+      <Components isList="true" count="11">
+        <Text100 Ref="6" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <CanGrow>True</CanGrow>
           <ClientRectangle>0,42.6,17.4,0.2</ClientRectangle>
@@ -109,12 +93,12 @@
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
           <Type>Expression</Type>
         </Text100>
-        <ReportTitleBand1 Ref="8" type="ReportTitleBand" isKey="true">
+        <ReportTitleBand1 Ref="7" type="ReportTitleBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanShrink>True</CanShrink>
-          <ClientRectangle>0,0.4,17.5,28.2</ClientRectangle>
+          <ClientRectangle>0,0.4,17.5,25.8</ClientRectangle>
           <Components isList="true" count="49">
-            <Text1 Ref="9" type="Text" isKey="true">
+            <Text1 Ref="8" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,17.5,1</ClientRectangle>
@@ -126,7 +110,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text1</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>ДЕПАРТАМЕНТ ЖКХ И ГОСУДАРСТВЕННОГО ЖИЛИЩНОГО НАДЗОРА&lt;br&gt;ТОМСКОЙ ОБЛАСТИ
 </Text>
               <TextBrush>Black</TextBrush>
@@ -134,7 +118,7 @@
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text1>
-            <Text2 Ref="10" type="Text" isKey="true">
+            <Text2 Ref="9" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Top;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
@@ -146,14 +130,14 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text2</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(наименование органа государственного контроля (надзора) или органа муниципального контроля)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text2>
-            <Text5 Ref="11" type="Text" isKey="true">
+            <Text5 Ref="10" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,4.4,17.4,0.6</ClientRectangle>
@@ -164,14 +148,14 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text5</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>А К Т&lt;letter-spacing="1"&gt; &lt;/letter-spacing&gt;П Р О В Е Р К И</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text5>
-            <Text18 Ref="12" type="Text" isKey="true">
+            <Text18 Ref="11" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -183,7 +167,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text18</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>№</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -191,7 +175,7 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text18>
-            <Text19 Ref="13" type="Text" isKey="true">
+            <Text19 Ref="12" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Bottom;Black;1;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -204,7 +188,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text19</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>{НомерАкта}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -212,7 +196,7 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text19>
-            <Text20 Ref="14" type="Text" isKey="true">
+            <Text20 Ref="13" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -224,14 +208,14 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text20</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text20>
-            <Text21 Ref="15" type="Text" isKey="true">
+            <Text21 Ref="14" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -243,14 +227,14 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text21</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text21>
-            <Text23 Ref="16" type="Text" isKey="true">
+            <Text23 Ref="15" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -261,7 +245,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text23</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>по адресу / адресам:</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -269,7 +253,7 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text23>
-            <Text29 Ref="17" type="Text" isKey="true">
+            <Text29 Ref="16" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Bottom;Black;1;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -281,7 +265,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text29</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>{ДомаИАдреса}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -289,7 +273,7 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text29>
-            <Text30 Ref="18" type="Text" isKey="true">
+            <Text30 Ref="17" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -301,14 +285,14 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text30</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text30>
-            <Text31 Ref="19" type="Text" isKey="true">
+            <Text31 Ref="18" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -320,7 +304,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text31</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(место проведения проверки)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -328,7 +312,7 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text31>
-            <Text3 Ref="20" type="Text" isKey="true">
+            <Text3 Ref="19" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Bottom;Black;1;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -341,7 +325,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text3</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>{НаселенныйПункт}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -349,7 +333,7 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text3>
-            <Text4 Ref="21" type="Text" isKey="true">
+            <Text4 Ref="20" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -361,7 +345,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text4</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(место составления акта)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -369,7 +353,7 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text4>
-            <Text32 Ref="22" type="Text" isKey="true">
+            <Text32 Ref="21" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -381,14 +365,14 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text32</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text32>
-            <Text33 Ref="23" type="Text" isKey="true">
+            <Text33 Ref="22" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -400,14 +384,14 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text33</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text33>
-            <Text35 Ref="24" type="Text" isKey="true">
+            <Text35 Ref="23" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Bottom;Black;1;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -420,7 +404,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text35</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>{ДатаАкта}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -428,7 +412,7 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text35>
-            <Text38 Ref="25" type="Text" isKey="true">
+            <Text38 Ref="24" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -440,7 +424,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text38</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>г.</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -448,7 +432,7 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text38>
-            <Text39 Ref="26" type="Text" isKey="true">
+            <Text39 Ref="25" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -460,7 +444,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text39</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(дата составления акта)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -468,7 +452,7 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text39>
-            <Text34 Ref="27" type="Text" isKey="true">
+            <Text34 Ref="26" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Bottom;Black;1;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -481,7 +465,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text34</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>{ВремяСоставления}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -489,7 +473,7 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text34>
-            <Text36 Ref="28" type="Text" isKey="true">
+            <Text36 Ref="27" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
@@ -501,7 +485,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text36</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(время составления акта)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -509,7 +493,7 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text36>
-            <Text6 Ref="29" type="Text" isKey="true">
+            <Text6 Ref="28" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,5,17.3,1</ClientRectangle>
@@ -520,7 +504,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text6</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>органом государственного контроля (надзора), органом муниципального контроля&lt;br&gt;
 юридического лица, индивидуального предпринимателя</Text>
               <TextBrush>Black</TextBrush>
@@ -528,11 +512,11 @@
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text6>
-            <Text7 Ref="30" type="Text" isKey="true">
+            <Text7 Ref="29" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,8.6,17.3,1</ClientRectangle>
+              <ClientRectangle>0,8.2,17.3,1</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12</Font>
               <Guid>eebeb6074dc34f429290d259f7aac1f7</Guid>
@@ -540,18 +524,18 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text7</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>На основании: распоряжения № {НомерРаспоряжения} от {ДатаРаспоряжения} {ДолжностьРаспоряженияРП} ЖКХ и государственного жилищного надзора Томской области {РуководительРП}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text7>
-            <Text8 Ref="31" type="Text" isKey="true">
+            <Text8 Ref="30" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Top;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,9.6,17.3,0.4</ClientRectangle>
+              <ClientRectangle>0,9.2,17.3,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>38c6750df0b348f1a5d795acbd1f71cc</Guid>
@@ -559,18 +543,18 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text8</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>вид документа с указанием реквизитов (номер, дата))</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text8>
-            <Text9 Ref="32" type="Text" isKey="true">
+            <Text9 Ref="31" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,10.4,3.2,0.6</ClientRectangle>
+              <ClientRectangle>0,9.6,3.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Regular,Point,False,204</Font>
               <Guid>d1b20334fce44e6c92944b26625c8232</Guid>
@@ -578,7 +562,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text9</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>была проведена</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -586,12 +570,12 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text9>
-            <Text10 Ref="33" type="Text" isKey="true">
+            <Text10 Ref="32" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>3.2,10.4,9.8,0.6</ClientRectangle>
+              <ClientRectangle>3.2,9.6,9.8,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Regular,Point,False,204</Font>
               <Guid>d0fa1b9df4f54dcaa14143c11be491c8</Guid>
@@ -599,7 +583,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text10</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>{ВидПроверки}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -607,11 +591,11 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text10>
-            <Text11 Ref="34" type="Text" isKey="true">
+            <Text11 Ref="33" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>13,10.4,4.4,0.6</ClientRectangle>
+              <ClientRectangle>13,9.6,4.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Regular,Point,False,204</Font>
               <Guid>8eb4569140104b4b92276a98f99107f6</Guid>
@@ -619,7 +603,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text11</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>проверка в отношении:</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -627,11 +611,11 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text11>
-            <Text12 Ref="35" type="Text" isKey="true">
+            <Text12 Ref="34" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,11,3.2,0.4</ClientRectangle>
+              <ClientRectangle>0,10.2,3.2,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,10</Font>
               <Guid>5f25f83db8b34eefb6ce431673c106f0</Guid>
@@ -639,18 +623,18 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text12</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text12>
-            <Text13 Ref="36" type="Text" isKey="true">
+            <Text13 Ref="35" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Top;Black;1;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>3.2,11,9.8,0.4</ClientRectangle>
+              <ClientRectangle>3.2,10.2,9.8,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>f8200725f94c4a6aaad2d7a311637ddd</Guid>
@@ -658,7 +642,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text13</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(плановая/внеплановая, документарная/выездная)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -666,11 +650,11 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text13>
-            <Text14 Ref="37" type="Text" isKey="true">
+            <Text14 Ref="36" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>13,11,4.4,0.4</ClientRectangle>
+              <ClientRectangle>13,10.2,4.4,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,10</Font>
               <Guid>f1c1309020ec4a7397e0c6aedde0de3f</Guid>
@@ -678,19 +662,19 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text14</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text14>
-            <Text15 Ref="38" type="Text" isKey="true">
+            <Text15 Ref="37" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,11.4,17.4,0.6</ClientRectangle>
+              <ClientRectangle>0,10.6,17.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12</Font>
               <Guid>fc477c5165264ea7b483c44713f921f5</Guid>
@@ -698,19 +682,19 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text15</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
-              <Text>{СокрУправОрг}, {ИННУправОрг}</Text>
+              <Parent isRef="7" />
+              <Text>{СокрУправОрг}, ИНН {ИННУправОрг}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text15>
-            <Text16 Ref="39" type="Text" isKey="true">
+            <Text16 Ref="38" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Top;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,12,17.3,0.4</ClientRectangle>
+              <ClientRectangle>0,11.2,17.3,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>b1aa8a5c3a144f8c9e6d6e4ba4c6b39e</Guid>
@@ -718,24 +702,24 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text16</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(наименование юридического лица, фамилия, имя, отчество (последнее - при наличии) индивидуального предпринимателя)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text16>
-            <Text17 Ref="40" type="Text" isKey="true">
+            <Text17 Ref="39" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,12.6,17.3,1.6</ClientRectangle>
+              <ClientRectangle>0,11.6,17.3,1.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12</Font>
               <Guid>6a895ef6ec964240a89423f79fae46d3</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text17</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>Дата и время проведения проверки:&lt;br&gt;
 «____» 20___г. с___час.___мин.____ до___час.____мин. Продолжительность___________&lt;br&gt;
 «____» 20___г. с___час.___мин.____ до___час.____мин. Продолжительность___________</Text>
@@ -744,11 +728,11 @@
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text17>
-            <Text22 Ref="41" type="Text" isKey="true">
+            <Text22 Ref="40" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Top;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,14.2,17.3,0.8</ClientRectangle>
+              <ClientRectangle>0,13.2,17.3,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>5814c471a3c749dd91e8a2b30e5e6467</Guid>
@@ -756,26 +740,27 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text22</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(заполняется в случае проведения проверок филиалов, представительств, обособленных структурных подразделений юридического лица или при осуществлении деятельности индивидуального предпринимателя по нескольким адресам)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text22>
-            <Text24 Ref="42" type="Text" isKey="true">
+            <Text24 Ref="41" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,15,17.4,1</ClientRectangle>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,14,17.4,1</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Regular,Point,False,204</Font>
               <Guid>fc4248d4079e4d90aa1bb1b53dea257e</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text24</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>Общая продолжительность проверки: &lt;u&gt;c {НачалоПериода} по {ОкончаниеПериода} ({ПродолжительностьПроверки} рабочих дней)&lt;/u&gt;</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -783,10 +768,10 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text24>
-            <Text27 Ref="43" type="Text" isKey="true">
+            <Text27 Ref="42" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,16,17.3,0.4</ClientRectangle>
+              <ClientRectangle>0,15,17.3,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>b3b413523b144dc6b9b68f6f0284f46e</Guid>
@@ -794,26 +779,26 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text27</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(рабочих дней/часов)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text27>
-            <Text28 Ref="44" type="Text" isKey="true">
+            <Text28 Ref="43" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,16.6,17.4,0.6</ClientRectangle>
+              <ClientRectangle>0,15.4,17.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Regular,Point,False,204</Font>
               <Guid>bd47a7dfc5db42fdac65666a7759a48f</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text28</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>Акт составлен: &lt;u&gt;{ЗональноеНаименование1ГосЯзыкТП}&lt;/u&gt;</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -821,10 +806,10 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text28>
-            <Text37 Ref="45" type="Text" isKey="true">
+            <Text37 Ref="44" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,17.2,17.3,0.4</ClientRectangle>
+              <ClientRectangle>0,16,17.3,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>6cd76040aa72462c94b4f7d05b63c127</Guid>
@@ -832,38 +817,38 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text37</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(наименование органа государственного контроля (надзора)или органа муниципального контроля)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text37>
-            <Text40 Ref="46" type="Text" isKey="true">
+            <Text40 Ref="45" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,17.8,17.4,1</ClientRectangle>
+              <ClientRectangle>0,16.6,17.4,1</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Regular,Point,False,204</Font>
               <Guid>b5ed2ad9c3e949f9b7eddd8ca559fa67</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text40</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>С копией распоряжения/приказа о проведении проверки ознакомлен (ы): (заполняется при
- проведении выездной проверки)</Text>
+ проведении выездной проверки): &lt;u&gt;{ДЛприОзнакомленныеСКопиейПриказа}&lt;/u&gt;</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text40>
-            <Text41 Ref="47" type="Text" isKey="true">
+            <Text41 Ref="46" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,19.2,17.3,0.4</ClientRectangle>
+              <ClientRectangle>0,18,17.3,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>96a91b01a34e4f73b57d7b4c69529745</Guid>
@@ -871,26 +856,26 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text41</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(фамилии, инициалы, подпись, дата, время)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text41>
-            <Text42 Ref="48" type="Text" isKey="true">
+            <Text42 Ref="47" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,19.8,17.4,1</ClientRectangle>
+              <ClientRectangle>0,18.4,17.4,1</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Regular,Point,False,204</Font>
               <Guid>b6aaa4c2e1b24f69959ecd3d99b9f6ec</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text42</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>Дата и номер решения прокурора (его заместителя) о согласовании проведения проверки:</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -898,11 +883,11 @@
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text42>
-            <Text45 Ref="49" type="Text" isKey="true">
+            <Text45 Ref="48" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,18.8,17.3,0.4</ClientRectangle>
+              <ClientRectangle>0,17.6,17.3,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>19b755f8b6934991a1bb5d6c6afe389a</Guid>
@@ -910,17 +895,17 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text45</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text45>
-            <Text43 Ref="50" type="Text" isKey="true">
+            <Text43 Ref="49" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,20.8,17.3,0.4</ClientRectangle>
+              <ClientRectangle>0,19.4,17.3,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>186a014d036544a9b1e69bdfb82ba134</Guid>
@@ -928,16 +913,16 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text43</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text43>
-            <Text44 Ref="51" type="Text" isKey="true">
+            <Text44 Ref="50" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,21.2,17.3,0.4</ClientRectangle>
+              <ClientRectangle>0,19.8,17.3,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>ebdfb4e396f34ec6bfc2b62a3b646808</Guid>
@@ -945,19 +930,20 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text44</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(заполняется в случае необходимости согласования проверки с органами прокуратуры)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text44>
-            <Text46 Ref="52" type="Text" isKey="true">
+            <Text46 Ref="51" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,21.8,17.4,1.4</ClientRectangle>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,20.2,17.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Regular,Point,False,204</Font>
               <GrowToHeight>True</GrowToHeight>
@@ -966,18 +952,17 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text46</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>Лицо (а), проводившее проверку: &lt;u&gt;{ИнспекторыИКоды}&lt;/u&gt;</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
-              <VertAlignment>Center</VertAlignment>
             </Text46>
-            <Text48 Ref="53" type="Text" isKey="true">
+            <Text48 Ref="52" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,23.6,17.3,1.4</ClientRectangle>
+              <ClientRectangle>0,21.4,17.3,1.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>7c114719a0ff4085b1050c4f5e4d2c77</Guid>
@@ -985,7 +970,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text48</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>(фамилия, имя, отчество (последнее - при наличии), должность должностного лица (должностных лиц), проводившего (их) проверку; 
 в случае привлечения к участию в проверке экспертов, экспертных организаций указываются фамилии, имена, отчества (последнее - при наличии), 
 должности экспертов и/или наименования экспертных организаций с указанием реквизитов свидетельства об аккредитации и наименование 
@@ -995,31 +980,31 @@
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text48>
-            <Text49 Ref="54" type="Text" isKey="true">
+            <Text49 Ref="53" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,25,17.4,0.8</ClientRectangle>
+              <ClientRectangle>0,22.8,17.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Regular,Point,False,204</Font>
               <Guid>29d6c43dca4546fcaf74cad3fce26936</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text49</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
-              <Text>При проведении проверки присутствовали: &lt;u&gt;{ДЛприОзнакомленныеСКопиейПриказа}&lt;/u&gt;</Text>
+              <Parent isRef="7" />
+              <Text>При проведении проверки присутствовали: &lt;u&gt;&lt;/u&gt;</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text49>
-            <Text50 Ref="55" type="Text" isKey="true">
+            <Text50 Ref="54" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,25.8,17.3,0.4</ClientRectangle>
+              <ClientRectangle>0,23.6,17.3,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>b912faa23ec6467597ebe7a2e1fab4e7</Guid>
@@ -1027,16 +1012,16 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text50</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text50>
-            <Text51 Ref="56" type="Text" isKey="true">
+            <Text51 Ref="55" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,26.2,17.3,1.4</ClientRectangle>
+              <ClientRectangle>0,24.2,17.3,1.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>267e95f27ad343dd8727b4248853c962</Guid>
@@ -1044,18 +1029,18 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text51</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <Text>фамилия, имя, отчество (последнее - при наличии), должность руководителя, иного должностного лица (должностных лиц) или уполномоченного представителя юридического лица, уполномоченного представителя индивидуального предпринимателя, уполномоченного представителя саморегулируемой организации (в случае проведения проверки члена саморегулируемой организации), присутствовавших при проведении мероприятий по проверке)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text51>
-            <Text47 Ref="57" type="Text" isKey="true">
+            <Text47 Ref="56" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,23.2,17.3,0.4</ClientRectangle>
+              <ClientRectangle>0,21,17.3,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>5046083735dd4f97885deb15a43c4bc3</Guid>
@@ -1063,7 +1048,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text47</Name>
               <Page isRef="5" />
-              <Parent isRef="8" />
+              <Parent isRef="7" />
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
@@ -1076,11 +1061,11 @@
           <Page isRef="5" />
           <Parent isRef="5" />
         </ReportTitleBand1>
-        <DataBand7 Ref="58" type="DataBand" isKey="true">
+        <DataBand7 Ref="57" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,29.4,17.5,1.2</ClientRectangle>
+          <ClientRectangle>0,27,17.5,1.2</ClientRectangle>
           <Components isList="true" count="1">
-            <Text98 Ref="59" type="Text" isKey="true">
+            <Text98 Ref="58" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
@@ -1091,9 +1076,9 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text98</Name>
               <Page isRef="5" />
-              <Parent isRef="58" />
+              <Parent isRef="57" />
               <Text>В ходе проведения проверки:
--{ХодПроведенияПроверки}:</Text>
+•{ХодПроведенияПроверки}:</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <Type>Expression</Type>
@@ -1107,12 +1092,12 @@
           <Parent isRef="5" />
           <Sort isList="true" count="0" />
         </DataBand7>
-        <DataBand3 Ref="60" type="DataBand" isKey="true">
+        <DataBand3 Ref="59" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanShrink>True</CanShrink>
-          <ClientRectangle>0,31.4,17.5,2.8</ClientRectangle>
+          <ClientRectangle>0,29,17.5,2.8</ClientRectangle>
           <Components isList="true" count="2">
-            <Text52 Ref="61" type="Text" isKey="true">
+            <Text52 Ref="60" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
@@ -1122,14 +1107,14 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text52</Name>
               <Page isRef="5" />
-              <Parent isRef="60" />
+              <Parent isRef="59" />
               <Text>Департаментом ЖКХ и государственного жилищного надзора ТО в соответствии с распоряжением № {НомерРаспоряжения} от {ДатаРаспоряжения} проведена проверка в отношении {СокрУправОрг} основание: {ОснованиеОбследования}.
 </Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <Type>Expression</Type>
             </Text52>
-            <Text93 Ref="62" type="Text" isKey="true">
+            <Text93 Ref="61" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
@@ -1140,7 +1125,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text93</Name>
               <Page isRef="5" />
-              <Parent isRef="60" />
+              <Parent isRef="59" />
               <Text>По результатам проведенной проверки {СокрУправОрг} {IIF(Totals.Count(ПредписаниеПриказа) &gt; 1,"выданы предписания:","выдано предписание")}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -1157,14 +1142,14 @@
           <Parent isRef="5" />
           <Sort isList="true" count="0" />
         </DataBand3>
-        <DataBand8 Ref="63" type="DataBand" isKey="true">
+        <DataBand8 Ref="62" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
           <CanBreak>True</CanBreak>
           <CanShrink>True</CanShrink>
-          <ClientRectangle>0,35,17.5,1.2</ClientRectangle>
+          <ClientRectangle>0,32.6,17.5,1.2</ClientRectangle>
           <Components isList="true" count="1">
-            <Text101 Ref="64" type="Text" isKey="true">
+            <Text101 Ref="63" type="Text" isKey="true">
               <AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <CanBreak>True</CanBreak>
@@ -1178,7 +1163,7 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text101</Name>
               <Page isRef="5" />
-              <Parent isRef="63" />
+              <Parent isRef="62" />
               <Text>№ {ПредписаниеПриказа.НомерПредписания} от {ПредписаниеПриказа.ДатаПредписания}, основание: {ПредписаниеПриказа.ДокументОснование} {ПредписаниеПриказа.Мероприятия}.</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
@@ -1196,9 +1181,9 @@
           <Parent isRef="5" />
           <Sort isList="true" count="0" />
         </DataBand8>
-        <DataBand4 Ref="65" type="DataBand" isKey="true">
+        <DataBand4 Ref="64" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,37,17.5,0</ClientRectangle>
+          <ClientRectangle>0,34.6,17.5,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="1">
             <value>_x007B_ХодПроведенияПроверки_x0021__x003D__x0022_выявлены_x0020_несоответствия_x0020_сведений_x002C__x0020_содержащихся_x0020_в_x0020_уведомлении_x0020_о_x0020_начале_x0020_осуществления_x0020_отдельных_x0020_видов_x0020_предпринимательской_x0020_деятельности_x002C__x0020_обязательным_x0020_требованиям_x0020__x0028_с_x0020_указанием_x0020_положений_x0020__x0028_нормативных_x0029__x0020_правовых_x0020_актов_x0029__x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
@@ -1210,11 +1195,11 @@
           <Parent isRef="5" />
           <Sort isList="true" count="0" />
         </DataBand4>
-        <DataBand5 Ref="66" type="DataBand" isKey="true">
+        <DataBand5 Ref="65" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,37.8,17.5,2.2</ClientRectangle>
-          <Components isList="true" count="2">
-            <Text96 Ref="67" type="Text" isKey="true">
+          <ClientRectangle>0,35.4,17.5,2.2</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text96 Ref="66" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
@@ -1225,13 +1210,13 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text96</Name>
               <Page isRef="5" />
-              <Parent isRef="66" />
+              <Parent isRef="65" />
               <Text>Департаментом ЖКХ и государственного жилищного надзора ТО в соответствии с распоряжением № {НомерРаспоряжения} от {ДатаРаспоряжения} проведена проверка в отношении {СокрУправОрг} основание: {ОснованиеОбследования}.</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <Type>Expression</Type>
             </Text96>
-            <Text97 Ref="68" type="Text" isKey="true">
+            <Text97 Ref="67" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0,1.8,17.4,0.2</ClientRectangle>
@@ -1242,11 +1227,27 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text97</Name>
               <Page isRef="5" />
-              <Parent isRef="66" />
+              <Parent isRef="65" />
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <Type>Expression</Type>
             </Text97>
+            <Text95 Ref="68" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,1.8,17.4,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text95</Name>
+              <Page isRef="5" />
+              <Parent isRef="65" />
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text95>
           </Components>
           <Conditions isList="true" count="1">
             <value>_x007B_ХодПроведенияПроверки_x0021__x003D__x0022_выявлены_x0020_факты_x0020_невыполнения_x0020_предписаний_x0020_органов_x0020_государственного_x0020_контроля_x0020__x0028_надзора_x0029__x002C__x0020_органов_x0020_муниципального_x0020_контроля_x0020__x0028_с_x0020_указанием_x0020_реквизитов_x0020_выданных_x0020_предписаний_x0029__x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
@@ -1260,7 +1261,7 @@
         </DataBand5>
         <DataBand6 Ref="69" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,40.8,17.5,1.8</ClientRectangle>
+          <ClientRectangle>0,38.4,17.5,1.8</ClientRectangle>
           <Components isList="true" count="1">
             <Text99 Ref="70" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1292,7 +1293,7 @@
         <DataBand2 Ref="71" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanShrink>True</CanShrink>
-          <ClientRectangle>0,43.4,17.5,0</ClientRectangle>
+          <ClientRectangle>0,41,17.5,0</ClientRectangle>
           <Components isList="true" count="1">
             <Text25 Ref="72" type="Text" isKey="true">
               <AutoWidth>True</AutoWidth>
@@ -1329,7 +1330,7 @@
           <BusinessObjectGuid isNull="true" />
           <CanBreak>True</CanBreak>
           <CanShrink>True</CanShrink>
-          <ClientRectangle>0,44.2,17.5,0.8</ClientRectangle>
+          <ClientRectangle>0,41.8,17.5,0.8</ClientRectangle>
           <Components isList="true" count="1">
             <Text26 Ref="74" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1362,8 +1363,8 @@
         </DataBand1>
         <ReportSummaryBand1 Ref="75" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,45.8,17.5,19</ClientRectangle>
-          <Components isList="true" count="40">
+          <ClientRectangle>0,43.4,17.5,19</ClientRectangle>
+          <Components isList="true" count="41">
             <Text53 Ref="76" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>None;Black;2;Solid;False;0;Black</Border>
@@ -1707,7 +1708,7 @@
               <Border>None;Black;2;Solid;False;0;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,9.6,17.4,0.8</ClientRectangle>
+              <ClientRectangle>0,9.6,7.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Regular,Point,False,204</Font>
               <Guid>94bc7ac7794d4169ab667e9d1e9badc4</Guid>
@@ -1715,12 +1716,12 @@
               <Name>Text71</Name>
               <Page isRef="5" />
               <Parent isRef="75" />
-              <Text>Подписи лиц, проводивших проверку: &lt;u&gt;{ИнспекторФамИО}&lt;/u&gt;</Text>
+              <Text>Подписи лиц, проводивших проверку:</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
-              <VertAlignment>Center</VertAlignment>
+              <VertAlignment>Bottom</VertAlignment>
             </Text71>
             <Text73 Ref="94" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
@@ -1746,7 +1747,7 @@
               <AllowHtmlTags>True</AllowHtmlTags>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,10.4,17.3,0.4</ClientRectangle>
+              <ClientRectangle>7.2,10,2.7,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Italic</Font>
               <Guid>0193dd95510640dca9619889098ad2a3</Guid>
@@ -2139,6 +2140,27 @@
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text92>
+            <Text94 Ref="116" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;Black;2;Solid;False;0;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10,9.6,7.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Regular,Point,False,204</Font>
+              <Guid>ebd192bbee5d4c76bcef09dc96b415e8</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text94</Name>
+              <Page isRef="5" />
+              <Parent isRef="75" />
+              <Text>{ИнспекторФамИО}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text94>
           </Components>
           <Conditions isList="true" count="0" />
           <Guid>8ddf088c1a3a4c1dbbc6c295c806f245</Guid>
@@ -2155,13 +2177,13 @@
       <PageHeight>29.7</PageHeight>
       <PageWidth>21</PageWidth>
       <Report isRef="0" />
-      <Watermark Ref="116" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+      <Watermark Ref="117" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
         <Font>Arial,100</Font>
         <TextBrush>[50:0:0:0]</TextBrush>
       </Watermark>
     </Page1>
   </Pages>
-  <PrinterSettings Ref="117" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <PrinterSettings Ref="118" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
   <ReferencedAssemblies isList="true" count="8">
     <value>System.Dll</value>
     <value>System.Drawing.Dll</value>
@@ -2173,10 +2195,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>9/1/2014 5:02:28 PM</ReportChanged>
+  <ReportChanged>9/3/2014 5:55:46 PM</ReportChanged>
   <ReportCreated>9/1/2013 1:25:03 PM</ReportCreated>
   <ReportFile>C:\Users\bars_user\git\GJI\Tomsk\АктПроверки.mrt</ReportFile>
-  <ReportGuid>6cb576e52c2d411a98962c9dba994a02</ReportGuid>
+  <ReportGuid>90a1a617dc504d7e9b1c1e711fac1de5</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2014.1.1900</ReportVersion>
