@@ -6,7 +6,7 @@
     <DataSources isList="true" count="0" />
     <Relations isList="true" count="0" />
     <Report isRef="0" />
-    <Variables isList="true" count="11">
+    <Variables isList="true" count="12">
       <value>,ДатаОпределения,ДатаОпределения,System.String,,False,False</value>
       <value>,ДолжностьРуководителя,ДолжностьРуководителя,System.String,,False,False</value>
       <value>,Руководитель,Руководитель,System.String,,False,False</value>
@@ -18,6 +18,7 @@
       <value>,ДатаПротокола,ДатаПротокола,System.String,,False,False</value>
       <value>,МестоРассмотрения,МестоРассмотрения,System.String,,False,False</value>
       <value>,НомерДела,НомерДела,System.String,,False,False</value>
+      <value>,ОписаниеСтатьи,ОписаниеСтатьи,System.String,,False,False</value>
     </Variables>
   </Dictionary>
   <EngineVersion>EngineV2</EngineVersion>
@@ -53,6 +54,7 @@
             </Text2>
             <RichText2 Ref="5" type="Stimulsoft.Report.Components.StiRichText" isKey="true">
               <BackColor>Transparent</BackColor>
+              <CanGrow>True</CanGrow>
               <ClientRectangle>0,0,17.4,3.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <DataColumn />
@@ -95,7 +97,7 @@
               <Name>Text4</Name>
               <Page isRef="2" />
               <Parent isRef="3" />
-              <Text>{ДолжностьРуководителя} {Руководитель} рассмотрев материалы дела № {НомерДела} об административном правонарушении</Text>
+              <Text>{ДолжностьРуководителя} {Руководитель}, рассмотрев материалы дела № {НомерДела} об административном правонарушении</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <Type>Expression</Type>
@@ -135,10 +137,11 @@
               <Type>Expression</Type>
             </Text12>
             <Text5 Ref="10" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
-              <ClientRectangle>0,8.6,17.4,2.4</ClientRectangle>
+              <ClientRectangle>0,8.6,17.4,2.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12</Font>
               <Guid>0537a8d807a14a4ba352ee6992af63db</Guid>
@@ -147,16 +150,19 @@
               <Name>Text5</Name>
               <Page isRef="2" />
               <Parent isRef="3" />
-              <Text>{ДатаПротокола} Государственным жилищным инспектором Томской области {ИнспекторТворП} в отношении {Правонарушитель} составлен протокол № {НомерПротокола} об административном правонарушении, предусмотренном {СтатьяЗакона}. На основании изложенного и руководствуясь положениями п. 3 ч. 2 ст. 23.55, п. 1 ч. 1 ст. 29.4 Кодекса РФ об административных </Text>
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{ДатаПротокола} Государственным жилищным инспектором Томской области {ИнспекторТворП} в отношении {Правонарушитель} составлен протокол № {НомерПротокола} об административном правонарушении, предусмотренном {СтатьяЗакона} Кодекса об административных правонарушениях - {ОписаниеСтатьи}.
+&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;На основании изложенного и руководствуясь положениями п. 3 ч. 2 ст. 23.55, п. 1 ч. 1 ст. 29.4 Кодекса РФ об административных правонарушениях,</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text5>
             <Text3 Ref="11" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
-              <ClientRectangle>0,11.6,17.4,2</ClientRectangle>
+              <ClientRectangle>0,11.6,17.4,1.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12</Font>
               <Guid>151ea3ea4683424884662e12059ef853</Guid>
@@ -165,7 +171,7 @@
               <Name>Text3</Name>
               <Page isRef="2" />
               <Parent isRef="3" />
-              <Text>Назначить рассмотрение дела об административном правонарушении № {НомерПротокола} на {ДатаИВремяРассмотренияДела} в {МестоРассмотрения}</Text>
+              <Text>Назначить рассмотрение дела об административном правонарушении № {НомерПротокола} на {ДатаИВремяРассмотренияДела} по адресу: г.Томск, пр-т Кирова, д. 41, каб. {МестоРассмотрения}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <Type>Expression</Type>
@@ -179,12 +185,12 @@
         </ReportTitleBand2>
         <ReportSummaryBand1 Ref="12" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,16,17.5,4.4</ClientRectangle>
+          <ClientRectangle>0,16,17.5,6.4</ClientRectangle>
           <Components isList="true" count="2">
             <Panel3 Ref="13" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,1,17.5,3.4</ClientRectangle>
+              <ClientRectangle>0,3,17.5,3.4</ClientRectangle>
               <Components isList="true" count="5">
                 <Text22 Ref="14" type="Text" isKey="true">
                   <AllowHtmlTags>True</AllowHtmlTags>
@@ -297,7 +303,7 @@
             <Panel4 Ref="19" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,-1.4,17.5,2.4</ClientRectangle>
+              <ClientRectangle>0,0.6,17.5,2.4</ClientRectangle>
               <Components isList="true" count="6">
                 <Text27 Ref="20" type="Text" isKey="true">
                   <AllowHtmlTags>True</AllowHtmlTags>
@@ -454,10 +460,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>8/11/2014 3:40:12 PM</ReportChanged>
+  <ReportChanged>9/5/2014 11:38:55 AM</ReportChanged>
   <ReportCreated>9/1/2013 1:25:03 PM</ReportCreated>
-  <ReportFile>C:\Users\bars_user\Downloads\Protocol_Definition_3 (1).mrt</ReportFile>
-  <ReportGuid>0412a063480c49c382026798250cc806</ReportGuid>
+  <ReportFile>C:\Users\nail.gaysin\Documents\gkh-templates\GJI\Tomsk\ОпределениеОНазначенииВремениИМеста.mrt</ReportFile>
+  <ReportGuid>fced1a57c2f9495ea3522d1deca928d6</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2014.1.1900</ReportVersion>

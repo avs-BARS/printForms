@@ -11,7 +11,7 @@
       <value>,Инспектор,Инспектор,System.String,,False,False</value>
       <value>,ИнспекторСокр,ИнспекторСокр,System.String,,False,False</value>
       <value>,ДатаДокумента,ДатаДокумента,System.String,,False,False</value>
-      <value>,НомерДокумента,НомерДокумента,System.String,,False,False</value>
+      <value>,НомерДокумента,НомерДокумента,System.String,_x0009_,False,False</value>
       <value>,Адресат,Адресат,System.String,,False,False</value>
       <value>,СтатьяЗакона,СтатьяЗакона,System.String,,False,False</value>
       <value>,ПроверяемыйДом,ПроверяемыйДом,System.String,,False,False</value>
@@ -26,7 +26,7 @@
       <value>,НомерПриказа,НомерПриказа,System.String,,False,False</value>
       <value>,ДатаПроведенияПроверки,ДатаПроведенияПроверки,System.String,,False,False</value>
       <value>,Час,Час,System.String,,False,False</value>
-      <value>,Мин,Мин,System.String,,False,False</value>
+      <value>,Мин,Мин,,System.String,,False,False,True</value>
       <value>,ВидПроверки,ВидПроверки,System.String,,False,False</value>
       <value>,ВидУслуги,ВидУслуги,System.String,,False,False</value>
       <value>,НомерПредписания,НомерПредписания,System.String,,False,False</value>
@@ -56,46 +56,50 @@
       <Border>None;Black;2;Solid;False;4;Black</Border>
       <Brush>Transparent</Brush>
       <Components isList="true" count="2">
-        <ReportTitleBand1 Ref="3" type="ReportTitleBand" isKey="true">
+        <ReportTitleBand2 Ref="3" type="ReportTitleBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,0.4,17.5,17</ClientRectangle>
-          <Components isList="true" count="9">
-            <Text6 Ref="4" type="Text" isKey="true">
-              <AllowHtmlTags>True</AllowHtmlTags>
+          <ClientRectangle>0,0.4,17.5,13.6</ClientRectangle>
+          <Components isList="true" count="7">
+            <Text8 Ref="4" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <CanBreak>True</CanBreak>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
-              <ClientRectangle>0.2,5.6,17,6.4</ClientRectangle>
+              <ClientRectangle>9.2,2.8,8.2,1.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12</Font>
               <GrowToHeight>True</GrowToHeight>
-              <Guid>fee371414c444ad78f96309cb49cafee</Guid>
-              <HorAlignment>Width</HorAlignment>
+              <Guid>e129197cccaa4039b0e31472973f5ac2</Guid>
+              <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
-              <Name>Text6</Name>
+              <Name>Text8</Name>
               <Page isRef="2" />
               <Parent isRef="3" />
-              <Text>&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Департамент ЖКХ и государственного жилищного надзора Томской области уведомляет 
-Вас о том, что Вам или Вашему представителю (с надлежаще оформленной доверенностью от имени {СокрКонтрагент} в соответствии со ст. 25.4 КоАП РФ и с правом подписи
-процессуальных документов в Департаменте ЖКХ и ГЖН ТО) необходимо явиться___________________ в ___ ч. ___ мин. по адресу: г. Томск, пр. Кирова, д. 41 (4 этаж), 
-для составления протокола об административном правонарушении по {СтатьяЗакона} КоАП РФ – нарушение нормативов обеспечения населения коммунальными услугами по адресу: {ПроверяемыйДом}  
-нарушение правил содержания и ремонта жилых домов и (или) жилых помещений по адресу: 
-{ПроверяемыйДом}.
-&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; При себе иметь:
-&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;- документ, удостоверяющий личность;
-&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-при явке представителя {СокрКонтрагент} доверенность от имени {ТипИсполнителя}.</Text>
+              <Text>{Адресат}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
-              <TextQuality>Wysiwyg</TextQuality>
-              <Type>Expression</Type>
-            </Text6>
-            <Text9 Ref="5" type="Text" isKey="true">
+            </Text8>
+            <Text5 Ref="5" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>1.4,4.8,3.2,0.6</ClientRectangle>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,3.6,6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>4f39cc4c6fc14572a6f87e5defe4375a</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="2" />
+              <Parent isRef="3" />
+              <Text>на № _______________</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text5>
+            <Text9 Ref="6" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.4,5,5.8,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,13,Bold</Font>
-              <Guid>e0a6b3ceedae467385629262ed8a7a26</Guid>
+              <Guid>3ab42c54340f4d968f21b563aee89c90</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text9</Name>
               <Page isRef="2" />
@@ -104,23 +108,44 @@
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
             </Text9>
-            <RichText1 Ref="6" type="Stimulsoft.Report.Components.StiRichText" isKey="true">
-              <BackColor>Transparent</BackColor>
+            <Text6 Ref="7" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
               <CanBreak>True</CanBreak>
               <CanGrow>True</CanGrow>
-              <CanShrink>True</CanShrink>
-              <ClientRectangle>0.2,12.6,17,1.4</ClientRectangle>
+              <ClientRectangle>0,5.8,17.4,4.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>fb5800dfea744ddebba5bd00555dbc77</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="2" />
+              <Parent isRef="3" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;В рамках проведения {ВидПроверки} проверки (распоряжение от  {ДатаПриказа} № {НомерПриказа}) по факту нарушения прав и законных интересов граждан при предоставлении {ВидУслуги} услуг, в связи с обращением  жильцов дома № {НомерДома} по {УлицаДома} в {Город} {ОписаниеПроблемы}, Вам необходимо:
+
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;- обеспечить участие в выездной внеплановой проверке  {ДатаПроведенияПроверки} в {Right("0"+Час,2)} ч. {Right("0"+ Мин,2)} мин. по адресу: {ПроверяемыйДом}, представителя Вашей организации с надлежаще оформленной доверенностью и документами, удостоверяющими личность;
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;- обеспечить доступ в __________________________ указанного жилого дома.
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text6>
+            <RichText1 Ref="8" type="Stimulsoft.Report.Components.StiRichText" isKey="true">
+              <BackColor>Transparent</BackColor>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>0,11.2,17.4,1.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <DataColumn />
-              <GrowToHeight>True</GrowToHeight>
-              <Guid>3ddd0ad3f47f405cb77ba19ba60a4bd4</Guid>
+              <Guid>e2cf1cde3fe64f34843b77ed7430b833</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>RichText1</Name>
               <Page isRef="2" />
               <Parent isRef="3" />
-              <Text>__LP___x005C_rtf1_x005C_fbidis_x005C_ansi_x005C_ansicpg1251_x005C_deff0_x005C_deflang1049__LP___x005C_fonttbl__LP___x005C_f0_x005C_fnil_x005C_fcharset204_x0020_Microsoft_x0020_Sans_x0020_Serif_x003B___RP____LP___x005C_f1_x005C_fswiss_x005C_fprq2_x005C_fcharset204__LP___x005C__x002A__x005C_fname_x0020_Arial_x003B___RP__Arial_x0020_CYR_x003B___RP____LP___x005C_f2_x005C_fnil_x005C_fcharset204__LP___x005C__x002A__x005C_fname_x0020_Arial_x003B___RP__Arial_x0020_CYR_x003B___RP____RP___x000D__x000A___LP___x005C_colortbl_x0020__x003B__x005C_red0_x005C_green0_x005C_blue0_x003B___RP___x000D__x000A__x005C_viewkind4_x005C_uc1_x005C_pard_x005C_ltrpar_x005C_fi720_x005C_qj_x005C_f0_x005C_fs17_x0020__x0020__x0020__x0020__x0020__x005C_cf1_x005C_b_x005C_i_x005C_f1_x005C_fs16_x005C__x0027_c2_x0020__x005C__x0027_f1_x005C__x0027_ee_x005C__x0027_ee_x005C__x0027_f2_x005C__x0027_e2_x005C__x0027_e5_x005C__x0027_f2_x005C__x0027_f1_x005C__x0027_f2_x005C__x0027_e2_x005C__x0027_e8_x005C__x0027_e8_x0020__x005C__x0027_f1_x0020__x005C__x0027_f7._x0020_1_x0020__x005C__x0027_f1_x005C__x0027_f2._x0020_19.4_x0020__x005C__x0027_ca_x005C__x0027_ee_x005C__x0027_c0_x005C__x0027_cf_x0020__x005C__x0027_d0_x005C__x0027_d4_x0020__x005C__x0027_ed_x005C__x0027_e5_x005C__x0027_ef_x005C__x0027_ee_x005C__x0027_e2_x005C__x0027_e8_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_e2_x005C__x0027_e5_x005C__x0027_ed_x005C__x0027_e8_x005C__x0027_e5_x0020__x005C__x0027_e7_x005C__x0027_e0_x005C__x0027_ea_x005C__x0027_ee_x005C__x0027_ed_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_ec_x005C__x0027_f3_x0020__x005C__x0027_f0_x005C__x0027_e0_x005C__x0027_f1_x005C__x0027_ef_x005C__x0027_ee_x005C__x0027_f0_x005C__x0027_ff_x005C__x0027_e6_x005C__x0027_e5_x005C__x0027_ed_x005C__x0027_e8_x005C__x0027_fe_x0020__x005C__x0027_e8_x005C__x0027_eb_x005C__x0027_e8_x0020__x005C__x0027_f2_x005C__x0027_f0_x005C__x0027_e5_x005C__x0027_e1_x005C__x0027_ee_x005C__x0027_e2_x005C__x0027_e0_x005C__x0027_ed_x005C__x0027_e8_x005C__x0027_fe_x0020__x005C__x0027_e4_x005C__x0027_ee_x005C__x0027_eb_x005C__x0027_e6_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_f1_x005C__x0027_f2_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_e3_x005C__x0027_ee_x0020__x005C__x0027_eb_x005C__x0027_e8_x005C__x0027_f6_x005C__x0027_e0_x0020__x005C__x0027_ee_x005C__x0027_f0_x005C__x0027_e3_x005C__x0027_e0_x005C__x0027_ed_x005C__x0027_e0_x002C__x0020__x005C__x0027_ee_x005C__x0027_f1_x005C__x0027_f3_x005C__x0027_f9_x005C__x0027_e5_x005C__x0027_f1_x005C__x0027_f2_x005C__x0027_e2_x005C__x0027_eb_x005C__x0027_ff_x005C__x0027_fe_x005C__x0027_f9_x005C__x0027_e5_x005C__x0027_e3_x005C__x0027_ee_x0020__x005C__x0027_e3_x005C__x0027_ee_x005C__x0027_f1_x005C__x0027_f3_x005C__x0027_e4_x005C__x0027_e0_x005C__x0027_f0_x005C__x0027_f1_x005C__x0027_f2_x005C__x0027_e2_x005C__x0027_e5_x005C__x0027_ed_x005C__x0027_ed_x005C__x0027_fb_x005C__x0027_e9_x0020__x005C__x0027_ed_x005C__x0027_e0_x005C__x0027_e4_x005C__x0027_e7_x005C__x0027_ee_x005C__x0027_f0_x0020__x0028__x005C__x0027_ea_x005C__x0027_ee_x005C__x0027_ed_x005C__x0027_f2_x005C__x0027_f0_x005C__x0027_ee_x005C__x0027_eb_x005C__x0027_fc_x0029__x002C__x0020__x005C__x0027_e2_x005C__x0027_eb_x005C__x0027_e5_x005C__x0027_f7_x005C__x0027_e5_x005C__x0027_f2_x0020__x005C__x0027_ed_x005C__x0027_e0_x005C__x0027_eb_x005C__x0027_ee_x005C__x0027_e6_x005C__x0027_e5_x005C__x0027_ed_x005C__x0027_e8_x005C__x0027_e5_x0020__x005C__x0027_e0_x005C__x0027_e4_x005C__x0027_ec_x005C__x0027_e8_x005C__x0027_ed_x005C__x0027_e8_x005C__x0027_f1_x005C__x0027_f2_x005C__x0027_f0_x005C__x0027_e0_x005C__x0027_f2_x005C__x0027_e8_x005C__x0027_e2_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_e3_x005C__x0027_ee_x0020__x005C__x0027_f8_x005C__x0027_f2_x005C__x0027_f0_x005C__x0027_e0_x005C__x0027_f4_x005C__x0027_e0_x0020__x005C__x0027_ed_x005C__x0027_e0_x0020__x005C__x0027_e3_x005C__x0027_f0_x005C__x0027_e0_x005C__x0027_e6_x005C__x0027_e4_x005C__x0027_e0_x005C__x0027_ed_x0020__x005C__x0027_e2_x0020__x005C__x0027_f0_x005C__x0027_e0_x005C__x0027_e7_x005C__x0027_ec_x005C__x0027_e5_x005C__x0027_f0_x005C__x0027_e5_x0020__x005C__x0027_ee_x005C__x0027_f2_x0020__x005C__x0027_ef_x005C__x0027_ff_x005C__x0027_f2_x005C__x0027_e8_x005C__x0027_f1_x005C__x0027_ee_x005C__x0027_f2_x0020__x005C__x0027_e4_x005C__x0027_ee_x0020__x005C__x0027_ee_x005C__x0027_e4_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_e9_x0020__x005C__x0027_f2_x005C__x0027_fb_x005C__x0027_f1_x005C__x0027_ff_x005C__x0027_f7_x005C__x0027_e8_x0020__x005C__x0027_f0_x005C__x0027_f3_x005C__x0027_e1_x005C__x0027_eb_x005C__x0027_e5_x005C__x0027_e9_x003B__x0020__x005C__x0027_ed_x005C__x0027_e0_x0020__x005C__x0027_e4_x005C__x0027_ee_x005C__x0027_eb_x005C__x0027_e6_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_f1_x005C__x0027_f2_x005C__x0027_ed_x005C__x0027_fb_x005C__x0027_f5_x0020__x005C__x0027_eb_x005C__x0027_e8_x005C__x0027_f6_x0020_-_x0020__x005C__x0027_ee_x005C__x0027_f2_x0020__x005C__x0027_e4_x005C__x0027_e2_x005C__x0027_f3_x005C__x0027_f5_x0020__x005C__x0027_f2_x005C__x0027_fb_x005C__x0027_f1_x005C__x0027_ff_x005C__x0027_f7_x0020__x005C__x0027_e4_x005C__x0027_ee_x0020__x005C__x0027_f7_x005C__x0027_e5_x005C__x0027_f2_x005C__x0027_fb_x005C__x0027_f0_x005C__x0027_e5_x005C__x0027_f5_x0020__x005C__x0027_f0_x005C__x0027_f3_x005C__x0027_e1_x005C__x0027_eb_x005C__x0027_e5_x005C__x0027_e9._x005C_par_x000D__x000A__x005C_pard_x005C_ltrpar_x005C_qj_x005C_cf0_x005C_f2_x005C_fs17_x005C_par_x000D__x000A___RP___x000D__x000A_</Text>
+              <Text>__LP___x005C_rtf1_x005C_fbidis_x005C_ansi_x005C_ansicpg1251_x005C_deff0_x005C_deflang1049__LP___x005C_fonttbl__LP___x005C_f0_x005C_fnil_x005C_fcharset204_x0020_Microsoft_x0020_Sans_x0020_Serif_x003B___RP____LP___x005C_f1_x005C_fswiss_x005C_fprq2_x005C_fcharset204__LP___x005C__x002A__x005C_fname_x0020_Arial_x003B___RP__Arial_x0020_CYR_x003B___RP____LP___x005C_f2_x005C_fnil_x005C_fcharset204__LP___x005C__x002A__x005C_fname_x0020_Times_x0020_New_x0020_Roman_x003B___RP__Times_x0020_New_x0020_Roman_x0020_CYR_x003B___RP____RP___x000D__x000A___LP___x005C_colortbl_x0020__x003B__x005C_red0_x005C_green0_x005C_blue0_x003B___RP___x000D__x000A__x005C_viewkind4_x005C_uc1_x005C_pard_x005C_ltrpar_x005C_fi720_x005C_qj_x005C_f0_x005C_fs17_x0020__x0020__x0020__x0020__x005C_cf1_x005C_b_x005C_i_x005C_f1_x005C_fs16_x005C__x0027_c2_x0020__x005C__x0027_f1_x005C__x0027_ee_x005C__x0027_ee_x005C__x0027_f2_x005C__x0027_e2_x005C__x0027_e5_x005C__x0027_f2_x005C__x0027_f1_x005C__x0027_f2_x005C__x0027_e2_x005C__x0027_e8_x005C__x0027_e8_x0020__x005C__x0027_f1_x0020__x005C__x0027_f7._x0020_1_x0020__x005C__x0027_f1_x005C__x0027_f2._x0020_19.4_x0020__x005C__x0027_ca_x005C__x0027_ee_x005C__x0027_c0_x005C__x0027_cf_x0020__x005C__x0027_d0_x005C__x0027_d4_x0020__x005C__x0027_ed_x005C__x0027_e5_x005C__x0027_ef_x005C__x0027_ee_x005C__x0027_e2_x005C__x0027_e8_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_e2_x005C__x0027_e5_x005C__x0027_ed_x005C__x0027_e8_x005C__x0027_e5_x0020__x005C__x0027_e7_x005C__x0027_e0_x005C__x0027_ea_x005C__x0027_ee_x005C__x0027_ed_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_ec_x005C__x0027_f3_x0020__x005C__x0027_f0_x005C__x0027_e0_x005C__x0027_f1_x005C__x0027_ef_x005C__x0027_ee_x005C__x0027_f0_x005C__x0027_ff_x005C__x0027_e6_x005C__x0027_e5_x005C__x0027_ed_x005C__x0027_e8_x005C__x0027_fe_x0020__x005C__x0027_e8_x005C__x0027_eb_x005C__x0027_e8_x0020__x005C__x0027_f2_x005C__x0027_f0_x005C__x0027_e5_x005C__x0027_e1_x005C__x0027_ee_x005C__x0027_e2_x005C__x0027_e0_x005C__x0027_ed_x005C__x0027_e8_x005C__x0027_fe_x0020__x005C__x0027_e4_x005C__x0027_ee_x005C__x0027_eb_x005C__x0027_e6_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_f1_x005C__x0027_f2_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_e3_x005C__x0027_ee_x0020__x005C__x0027_eb_x005C__x0027_e8_x005C__x0027_f6_x005C__x0027_e0_x0020__x005C__x0027_ee_x005C__x0027_f0_x005C__x0027_e3_x005C__x0027_e0_x005C__x0027_ed_x005C__x0027_e0_x002C__x0020__x005C__x0027_ee_x005C__x0027_f1_x005C__x0027_f3_x005C__x0027_f9_x005C__x0027_e5_x005C__x0027_f1_x005C__x0027_f2_x005C__x0027_e2_x005C__x0027_eb_x005C__x0027_ff_x005C__x0027_fe_x005C__x0027_f9_x005C__x0027_e5_x005C__x0027_e3_x005C__x0027_ee_x0020__x005C__x0027_e3_x005C__x0027_ee_x005C__x0027_f1_x005C__x0027_f3_x005C__x0027_e4_x005C__x0027_e0_x005C__x0027_f0_x005C__x0027_f1_x005C__x0027_f2_x005C__x0027_e2_x005C__x0027_e5_x005C__x0027_ed_x005C__x0027_ed_x005C__x0027_fb_x005C__x0027_e9_x0020__x005C__x0027_ed_x005C__x0027_e0_x005C__x0027_e4_x005C__x0027_e7_x005C__x0027_ee_x005C__x0027_f0_x0020__x0028__x005C__x0027_ea_x005C__x0027_ee_x005C__x0027_ed_x005C__x0027_f2_x005C__x0027_f0_x005C__x0027_ee_x005C__x0027_eb_x005C__x0027_fc_x0029__x002C__x0020__x005C__x0027_e2_x005C__x0027_eb_x005C__x0027_e5_x005C__x0027_f7_x005C__x0027_e5_x005C__x0027_f2_x0020__x005C__x0027_ed_x005C__x0027_e0_x005C__x0027_eb_x005C__x0027_ee_x005C__x0027_e6_x005C__x0027_e5_x005C__x0027_ed_x005C__x0027_e8_x005C__x0027_e5_x0020__x005C__x0027_e0_x005C__x0027_e4_x005C__x0027_ec_x005C__x0027_e8_x005C__x0027_ed_x005C__x0027_e8_x005C__x0027_f1_x005C__x0027_f2_x005C__x0027_f0_x005C__x0027_e0_x005C__x0027_f2_x005C__x0027_e8_x005C__x0027_e2_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_e3_x005C__x0027_ee_x0020__x005C__x0027_f8_x005C__x0027_f2_x005C__x0027_f0_x005C__x0027_e0_x005C__x0027_f4_x005C__x0027_e0_x0020__x005C__x0027_ed_x005C__x0027_e0_x0020__x005C__x0027_e3_x005C__x0027_f0_x005C__x0027_e0_x005C__x0027_e6_x005C__x0027_e4_x005C__x0027_e0_x005C__x0027_ed_x0020__x005C__x0027_e2_x0020__x005C__x0027_f0_x005C__x0027_e0_x005C__x0027_e7_x005C__x0027_ec_x005C__x0027_e5_x005C__x0027_f0_x005C__x0027_e5_x0020__x005C__x0027_ee_x005C__x0027_f2_x0020__x005C__x0027_ef_x005C__x0027_ff_x005C__x0027_f2_x005C__x0027_e8_x005C__x0027_f1_x005C__x0027_ee_x005C__x0027_f2_x0020__x005C__x0027_e4_x005C__x0027_ee_x0020__x005C__x0027_ee_x005C__x0027_e4_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_e9_x0020__x005C__x0027_f2_x005C__x0027_fb_x005C__x0027_f1_x005C__x0027_ff_x005C__x0027_f7_x005C__x0027_e8_x0020__x005C__x0027_f0_x005C__x0027_f3_x005C__x0027_e1_x005C__x0027_eb_x005C__x0027_e5_x005C__x0027_e9_x003B__x0020__x005C__x0027_ed_x005C__x0027_e0_x0020__x005C__x0027_e4_x005C__x0027_ee_x005C__x0027_eb_x005C__x0027_e6_x005C__x0027_ed_x005C__x0027_ee_x005C__x0027_f1_x005C__x0027_f2_x005C__x0027_ed_x005C__x0027_fb_x005C__x0027_f5_x0020__x005C__x0027_eb_x005C__x0027_e8_x005C__x0027_f6_x0020_-_x0020__x005C__x0027_ee_x005C__x0027_f2_x0020__x005C__x0027_e4_x005C__x0027_e2_x005C__x0027_f3_x005C__x0027_f5_x0020__x005C__x0027_f2_x005C__x0027_fb_x005C__x0027_f1_x005C__x0027_ff_x005C__x0027_f7_x0020__x005C__x0027_e4_x005C__x0027_ee_x0020__x005C__x0027_f7_x005C__x0027_e5_x005C__x0027_f2_x005C__x0027_fb_x005C__x0027_f0_x005C__x0027_e5_x005C__x0027_f5_x0020__x005C__x0027_f0_x005C__x0027_f3_x005C__x0027_e1_x005C__x0027_eb_x005C__x0027_e5_x005C__x0027_e9._x005C_par_x000D__x000A__x005C_pard_x005C_ltrpar_x005C_qj_x005C_cf0_x005C_f2_x005C_fs17_x005C_par_x000D__x000A___RP___x000D__x000A_</Text>
             </RichText1>
-            <RichText2 Ref="7" type="Stimulsoft.Report.Components.StiRichText" isKey="true">
+            <RichText2 Ref="9" type="Stimulsoft.Report.Components.StiRichText" isKey="true">
               <BackColor>Transparent</BackColor>
               <ClientRectangle>0,0,17.4,2.2</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -131,110 +156,50 @@
               <Parent isRef="3" />
               <Text>__LP___x005C_rtf1_x005C_fbidis_x005C_ansi_x005C_ansicpg1251_x005C_deff0_x005C_deflang1049__LP___x005C_fonttbl__LP___x005C_f0_x005C_froman_x005C_fprq2_x005C_fcharset204__LP___x005C__x002A__x005C_fname_x0020_Times_x0020_New_x0020_Roman_x003B___RP__Times_x0020_New_x0020_Roman_x0020_CYR_x003B___RP____LP___x005C_f1_x005C_fnil_x005C_fcharset204_x0020_Microsoft_x0020_Sans_x0020_Serif_x003B___RP____RP___x000D__x000A___LP___x005C_colortbl_x0020__x003B__x005C_red0_x005C_green0_x005C_blue0_x003B___RP___x000D__x000A__x005C_viewkind4_x005C_uc1_x005C_pard_x005C_ltrpar_x005C_sa120_x005C_qc_x005C_cf1_x005C_f0_x005C_fs24_x005C__x0027_c4_x005C__x0027_c5_x005C__x0027_cf_x005C__x0027_c0_x005C__x0027_d0_x005C__x0027_d2_x005C__x0027_c0_x005C__x0027_cc_x005C__x0027_c5_x005C__x0027_cd_x005C__x0027_d2_x0020__x005C__x0027_c6_x005C__x0027_ca_x005C__x0027_d5_x0020__x005C__x0027_c8_x0020__x005C__x0027_c3_x005C__x0027_ce_x005C__x0027_d1_x005C__x0027_d3_x005C__x0027_c4_x005C__x0027_c0_x005C__x0027_d0_x005C__x0027_d1_x005C__x0027_d2_x005C__x0027_c2_x005C__x0027_c5_x005C__x0027_cd_x005C__x0027_cd_x005C__x0027_ce_x005C__x0027_c3_x005C__x0027_ce_x0020__x005C__x0027_c6_x005C__x0027_c8_x005C__x0027_cb_x005C__x0027_c8_x005C__x0027_d9_x005C__x0027_cd_x005C__x0027_ce_x005C__x0027_c3_x005C__x0027_ce_x0020__x005C__x0027_cd_x005C__x0027_c0_x005C__x0027_c4_x005C__x0027_c7_x005C__x0027_ce_x005C__x0027_d0_x005C__x0027_c0_x005C_par_x000D__x000A__x005C__x0027_d2_x005C__x0027_ce_x005C__x0027_cc_x005C__x0027_d1_x005C__x0027_ca_x005C__x0027_ce_x005C__x0027_c9_x0020__x005C__x0027_ce_x005C__x0027_c1_x005C__x0027_cb_x005C__x0027_c0_x005C__x0027_d1_x005C__x0027_d2_x005C__x0027_c8_x005C_b_x005C_fs16_x005C_par_x000D__x000A__x005C_b0_x005C_fs18_x0020_634050_x002C__x0020__x005C__x0027_e3._x0020__x005C__x0027_d2_x005C__x0027_ee_x005C__x0027_ec_x005C__x0027_f1_x005C__x0027_ea_x002C__x0020__x0020__x005C__x0027_ef_x005C__x0027_f0._x0020__x005C__x0027_cb_x005C__x0027_e5_x005C__x0027_ed_x005C__x0027_e8_x005C__x0027_ed_x005C__x0027_e0_x002C__x0020_111_x002C__x0020__x005C__x0027_f2_x005C__x0027_e5_x005C__x0027_eb._x002F__x005C__x0027_f4_x005C__x0027_e0_x005C__x0027_ea_x005C__x0027_f1:_x0020_555-241_x005C_par_x000D__x000A__x005C_pard_x005C_ltrpar_x005C_cf0_x005C_f1_x005C_fs17_x005C_par_x000D__x000A___RP___x000D__x000A_</Text>
             </RichText2>
-            <Text2 Ref="8" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text2 Ref="10" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,3,2.6,0.6</ClientRectangle>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,2.8,7.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Underline</Font>
-              <Guid>404884ecf0be48ba878a61f321b5fa69</Guid>
+              <Guid>8d7fbe95f73140f8b750dd6e9dd6ff36</Guid>
+              <HorAlignment>Width</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text2</Name>
               <Page isRef="2" />
               <Parent isRef="3" />
-              <Text>{ДатаДокумента}</Text>
+              <Text>{ДатаДокумента} № {НомерДокумента}</Text>
               <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
             </Text2>
-            <Text8 Ref="9" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <CanGrow>True</CanGrow>
-              <CanShrink>True</CanShrink>
-              <ClientRectangle>9.2,2.8,8,1.8</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Font>Times New Roman,12</Font>
-              <Guid>4895e91ddd524a9285633f0a73a431b4</Guid>
-              <HorAlignment>Right</HorAlignment>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text8</Name>
-              <Page isRef="2" />
-              <Parent isRef="3" />
-              <Text>{Адресат}</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
-            </Text8>
-            <Text4 Ref="10" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
-              <Brush>Transparent</Brush>
-              <ClientRectangle>3.4,3,3.6,0.6</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Font>Times New Roman,12,Underline</Font>
-              <Guid>4dbe9f1a5ec04794a85017605c89849d</Guid>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text4</Name>
-              <Page isRef="2" />
-              <Parent isRef="3" />
-              <Text>{НомерДокумента}</Text>
-              <TextBrush>Black</TextBrush>
-            </Text4>
-            <Text5 Ref="11" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
-              <Brush>Transparent</Brush>
-              <ClientRectangle>0,3.8,6,0.6</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Font>Times New Roman,12</Font>
-              <Guid>0128d5b370c8424f8f49885050c3212e</Guid>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text5</Name>
-              <Page isRef="2" />
-              <Parent isRef="3" />
-              <Text>на № _______________</Text>
-              <TextBrush>Black</TextBrush>
-              <Type>Expression</Type>
-            </Text5>
-            <Text7 Ref="12" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>2.6,3,0.8,0.6</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Font>Times New Roman,11</Font>
-              <Guid>28d2f4f871ad4e64964a3e1c143d2d3f</Guid>
-              <HorAlignment>Center</HorAlignment>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text7</Name>
-              <Page isRef="2" />
-              <Parent isRef="3" />
-              <Text>№</Text>
-              <TextBrush>Black</TextBrush>
-              <Type>Expression</Type>
-              <VertAlignment>Center</VertAlignment>
-            </Text7>
           </Components>
           <Conditions isList="true" count="0" />
-          <Guid>96924e5dec9348c6b8e312370dbb0ed1</Guid>
-          <Name>ReportTitleBand1</Name>
+          <Guid>9fe6ea3930184d22910fdd5ea4be1183</Guid>
+          <Name>ReportTitleBand2</Name>
           <Page isRef="2" />
           <Parent isRef="2" />
-        </ReportTitleBand1>
-        <ReportSummaryBand1 Ref="13" type="ReportSummaryBand" isKey="true">
+        </ReportTitleBand2>
+        <ReportSummaryBand1 Ref="11" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,18.2,17.5,3.8</ClientRectangle>
+          <ClientRectangle>0,14.8,17.5,4.4</ClientRectangle>
           <Components isList="true" count="2">
-            <Panel3 Ref="14" type="Panel" isKey="true">
+            <Panel3 Ref="12" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,1.8,17.5,2</ClientRectangle>
-              <Components isList="true" count="5">
-                <Text22 Ref="15" type="Text" isKey="true">
+              <ClientRectangle>0,2.4,17.5,2</ClientRectangle>
+              <Components isList="true" count="4">
+                <Text22 Ref="13" type="Text" isKey="true">
                   <AllowHtmlTags>True</AllowHtmlTags>
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>2.4,1.45,10.1,0.4</ClientRectangle>
+                  <ClientRectangle>4.4,1.45,9.7,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Times New Roman,8,Italic</Font>
-                  <Guid>a13992c6feb448149cce7ab6291f1999</Guid>
-                  <HorAlignment>Right</HorAlignment>
+                  <Guid>d21a57ca494f4a5880b595082d5e9d76</Guid>
+                  <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text22</Name>
                   <Page isRef="2" />
-                  <Parent isRef="14" />
+                  <Parent isRef="12" />
                   <PrintOn>OnlyLastPage</PrintOn>
                   <Text>ф.и.о.  лица, отправившего (получившего) документ</Text>
                   <TextBrush>Black</TextBrush>
@@ -242,17 +207,17 @@
                   <TextQuality>Wysiwyg</TextQuality>
                   <Type>Expression</Type>
                 </Text22>
-                <Text25 Ref="16" type="Text" isKey="true">
+                <Text25 Ref="14" type="Text" isKey="true">
                   <AllowHtmlTags>True</AllowHtmlTags>
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0,0.2,10.7,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Times New Roman,10</Font>
-                  <Guid>ed349550e88d432d9ec55edc8d2b78b3</Guid>
+                  <Guid>70e7421db5e04f8cb31d08963a34a6dd</Guid>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text25</Name>
                   <Page isRef="2" />
-                  <Parent isRef="14" />
+                  <Parent isRef="12" />
                   <PrintOn>OnlyLastPage</PrintOn>
                   <Text>Отправлено по почте с уведомлением (получено):</Text>
                   <TextBrush>Black</TextBrush>
@@ -260,18 +225,19 @@
                   <TextQuality>Wysiwyg</TextQuality>
                   <Type>Expression</Type>
                 </Text25>
-                <Text26 Ref="17" type="Text" isKey="true">
+                <Text26 Ref="15" type="Text" isKey="true">
                   <AllowHtmlTags>True</AllowHtmlTags>
+                  <Border>Top;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>15,1.4,1.3,0.4</ClientRectangle>
+                  <ClientRectangle>14.6,1.4,2.3,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Times New Roman,8,Italic</Font>
-                  <Guid>db794a60b3a448699540368b0f98e6d2</Guid>
+                  <Guid>1cec964648ae44bf8782bb5428c8b0b6</Guid>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text26</Name>
                   <Page isRef="2" />
-                  <Parent isRef="14" />
+                  <Parent isRef="12" />
                   <PrintOn>OnlyLastPage</PrintOn>
                   <Text>подпись</Text>
                   <TextBrush>Black</TextBrush>
@@ -279,16 +245,16 @@
                   <TextQuality>Wysiwyg</TextQuality>
                   <Type>Expression</Type>
                 </Text26>
-                <Text24 Ref="18" type="Text" isKey="true">
+                <Text24 Ref="16" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0,1.05,14.1,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Times New Roman,10</Font>
-                  <Guid>d8ab5bd7b1264daaa7b1c3f416dd5072</Guid>
+                  <Guid>b50602f335484e7fbac4ba026b50b516</Guid>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text24</Name>
                   <Page isRef="2" />
-                  <Parent isRef="14" />
+                  <Parent isRef="12" />
                   <PrintOn>OnlyLastPage</PrintOn>
                   <Text>«____» ___________ 20__г.  __________________________________________________</Text>
                   <TextBrush>Black</TextBrush>
@@ -296,48 +262,34 @@
                   <TextQuality>Wysiwyg</TextQuality>
                   <Type>Expression</Type>
                 </Text24>
-                <Text17 Ref="19" type="Text" isKey="true">
-                  <Brush>Transparent</Brush>
-                  <ClientRectangle>14.4,1.05,2.6,0.4</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Font>Times New Roman,10</Font>
-                  <Guid>aabbaa5247ab471997dd846bdbb23fdb</Guid>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text17</Name>
-                  <Page isRef="2" />
-                  <Parent isRef="14" />
-                  <Text>_____________</Text>
-                  <TextBrush>Black</TextBrush>
-                  <Type>Expression</Type>
-                </Text17>
               </Components>
               <Conditions isList="true" count="0" />
               <DockStyle>Bottom</DockStyle>
-              <Guid>8318fb5afa5b46eeb3e5ae2a06405ac7</Guid>
+              <Guid>c73d8d4ddc934c37868014f3c082414b</Guid>
               <Name>Panel3</Name>
               <Page isRef="2" />
-              <Parent isRef="13" />
+              <Parent isRef="11" />
             </Panel3>
-            <Panel4 Ref="20" type="Panel" isKey="true">
+            <Panel4 Ref="17" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,0,17.5,1.8</ClientRectangle>
+              <ClientRectangle>0,0,17.5,2.4</ClientRectangle>
               <Components isList="true" count="2">
-                <Text27 Ref="21" type="Text" isKey="true">
+                <Text27 Ref="18" type="Text" isKey="true">
                   <AllowHtmlTags>True</AllowHtmlTags>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>9.2,0,8.3,1.8</ClientRectangle>
+                  <ClientRectangle>9.2,0,8.3,2.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <DockStyle>Right</DockStyle>
                   <Font>Times New Roman,12</Font>
                   <GrowToHeight>True</GrowToHeight>
-                  <Guid>87650729632c4d16aabba2f1a884e473</Guid>
+                  <Guid>f03b556b932b43ec8b986f27a10882ba</Guid>
                   <HorAlignment>Right</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text27</Name>
                   <Page isRef="2" />
-                  <Parent isRef="20" />
+                  <Parent isRef="17" />
                   <PrintOn>OnlyLastPage</PrintOn>
                   <Text>{ИнспекторСокр}</Text>
                   <TextBrush>Black</TextBrush>
@@ -345,20 +297,20 @@
                   <TextQuality>Wysiwyg</TextQuality>
                   <Type>Expression</Type>
                 </Text27>
-                <Text28 Ref="22" type="Text" isKey="true">
+                <Text28 Ref="19" type="Text" isKey="true">
                   <AllowHtmlTags>True</AllowHtmlTags>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>0,0,8.3,1.8</ClientRectangle>
+                  <ClientRectangle>0,0,8.3,2.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <DockStyle>Left</DockStyle>
                   <Font>Times New Roman,12</Font>
                   <GrowToHeight>True</GrowToHeight>
-                  <Guid>0d9e062863d246f58505a3abc3a174ef</Guid>
+                  <Guid>a0ff28f4bee24a94824dca6cd17e74ad</Guid>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text28</Name>
                   <Page isRef="2" />
-                  <Parent isRef="20" />
+                  <Parent isRef="17" />
                   <PrintOn>OnlyLastPage</PrintOn>
                   <Text>{ДолжностьИнспектора}&lt;br&gt;
 М.П.</Text>
@@ -370,14 +322,14 @@
               </Components>
               <Conditions isList="true" count="0" />
               <DockStyle>Bottom</DockStyle>
-              <Guid>6b8931b2d8f24711ab17d4978f46e42b</Guid>
+              <Guid>b27ade02905e4f8395ddbee5354a7fa8</Guid>
               <Name>Panel4</Name>
               <Page isRef="2" />
-              <Parent isRef="13" />
+              <Parent isRef="11" />
             </Panel4>
           </Components>
           <Conditions isList="true" count="0" />
-          <Guid>f74b193b94074acc88f511f8e43c7577</Guid>
+          <Guid>dbab15d178cd431e8bb7a91d2a2d47da</Guid>
           <Name>ReportSummaryBand1</Name>
           <Page isRef="2" />
           <Parent isRef="2" />
@@ -390,13 +342,13 @@
       <PageHeight>29.7</PageHeight>
       <PageWidth>21</PageWidth>
       <Report isRef="0" />
-      <Watermark Ref="23" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+      <Watermark Ref="20" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
         <Font>Arial,100</Font>
         <TextBrush>[50:0:0:0]</TextBrush>
       </Watermark>
     </Page1>
   </Pages>
-  <PrinterSettings Ref="24" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <PrinterSettings Ref="21" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
   <ReferencedAssemblies isList="true" count="8">
     <value>System.Dll</value>
     <value>System.Drawing.Dll</value>
@@ -408,10 +360,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>5/24/2014 2:04:19 PM</ReportChanged>
+  <ReportChanged>9/4/2014 4:39:13 PM</ReportChanged>
   <ReportCreated>9/1/2013 1:25:03 PM</ReportCreated>
-  <ReportFile>D:\работа димка\готово\7П. ТРЕБОВАНИЕ 7.22%2C 7.23 на протокол.mrt</ReportFile>
-  <ReportGuid>79ac87c59f8e4f0ea7976ae0c82697b5</ReportGuid>
+  <ReportFile>C:\Users\bars_user\git\GJI\Tomsk\требование\Приказ\6. ТРЕБОВАНИЕ 7.22%2C 7.23 на проверку.mrt</ReportFile>
+  <ReportGuid>fd7cb2b34f1b49d5bdf332ca02e8369f</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2014.1.1900</ReportVersion>
