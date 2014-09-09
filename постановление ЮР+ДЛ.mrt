@@ -1,0 +1,2309 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="1">
+      <НормыПрава Ref="2" type="DataTableSource" isKey="true">
+        <Alias>НормыПрава</Alias>
+        <Columns isList="true" count="1">
+          <value>Информация,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>НормыПрава</Name>
+        <NameInSource>НормыПрава</NameInSource>
+      </НормыПрава>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="67">
+      <value>,Номер,Номер,System.String,,False,False</value>
+      <value>,Дата,Дата,System.String,,False,False</value>
+      <value>,ПолФизЛица,ПолФизЛица,,System.String,,False,False,True</value>
+      <value>,РеквизитыФизЛица,РеквизитыФизЛица,System.String,,False,False</value>
+      <value>,ВремяСоставления,ВремяСоставления,System.String,,False,False</value>
+      <value>,КодДлВынесшегоПостановление,КодДлВынесшегоПостановление,System.String,,False,False</value>
+      <value>,ФИОДлВынесшегоПостановление,ФИОДлВынесшегоПостановление,System.String,,False,False</value>
+      <value>,КодРуководителяФИО_сИнициалами,КодРуководителяФИО_сИнициалами,System.String,,False,False</value>
+      <value>,Штраф,Штраф,System.Decimal,,False,False</value>
+      <value>,Кого,Кого,System.String,,False,False</value>
+      <value>,УправОргРП,УправОргРП,System.String,,False,False</value>
+      <value>,ИНН,ИНН,System.String,,False,False</value>
+      <value>,КПП,КПП,System.String,,False,False</value>
+      <value>,ОГРН,ОГРН,System.String,,False,False</value>
+      <value>,ЮрАдресКонтрагента,ЮрАдресКонтрагента,System.String,,False,False</value>
+      <value>,ФИОРукОрг,ФИОРукОрг,System.String,,False,False</value>
+      <value>,ЧастьРаздельно,ЧастьРаздельно,System.String,,False,False</value>
+      <value>,СтатьяРаздельно,СтатьяРаздельно,System.String,,False,False</value>
+      <value>,АдресОбъектаПравонарушения,АдресОбъектаПравонарушения,System.String,,False,False</value>
+      <value>,ДатаИВремяРассмотренияДела,ДатаИВремяРассмотренияДела,System.String,,False,False</value>
+      <value>,ОписСтатьи,ОписСтатьи,System.String,,False,False</value>
+      <value>,НарушенныеТребования,НарушенныеТребования,System.String,,False,False</value>
+      <value>,Установил,Установил,System.String,,False,False</value>
+      <value>,ДатаОпределения,ДатаОпределения,System.String,,False,False</value>
+      <value>,НомерОпределения,НомерОпределения,System.String,,False,False</value>
+      <value>,МестоРассмотрения,МестоРассмотрения,System.String,,False,False</value>
+      <value>,ДатаПриказа,ДатаПриказа,System.String,,False,False</value>
+      <value>,ДатаАкта,ДатаАкта,System.String,,False,False</value>
+      <value>,ТипПроверки,ТипПроверки,,System.String,,False,False,True</value>
+      <value>,СтатьяЗакона,СтатьяЗакона,System.String,,False,False</value>
+      <value>,НомерПриказа,НомерПриказа,System.String,,False,False</value>
+      <value>,КодРуководителяФИО,КодРуководителяФИО,System.String,,False,False</value>
+      <value>,ДатаПротокола,ДатаПротокола,System.String,,False,False</value>
+      <value>,НомерАкта,НомерАкта,System.String,,False,False</value>
+      <value>,НомерПротокола,НомерПротокола,System.String,,False,False</value>
+      <value>,ТипИсполнителя,ТипИсполнителя,System.String,,False,False</value>
+      <value>,ФизЛицо,ФизЛицо,ФизЛицо,System.String,,False,False,False</value>
+      <value>,МестоРаботы,МестоРаботы,МестоРаботы,System.String,,False,False,False</value>
+      <value>,Должность,Должность,Должность,System.String,,False,False,False</value>
+      <value>,ДатаМестоРождения,ДатаМестоРождения,ДатаМестоРождения,System.String,,False,False,False</value>
+      <value>,ДокументУдостовЛичность,ДокументУдостовЛичность,ДокументУдостовЛичность,System.String,,False,False,False</value>
+      <value>,ЕГРЮЛ,ЕГРЮЛ,ЕГРЮЛ,System.String,,False,False,False</value>
+      <value>,ДатаРассмотренияДела,ДатаРассмотренияДела,ДатаРассмотренияДела,System.String,,False,False,False</value>
+      <value>,Ходатайство,Ходатайство,Ходатайство,System.String,,False,False,False</value>
+      <value>,ТекстХодатайства,ТекстХодатайства,ТекстХодатайства,System.String,,False,False,False</value>
+      <value>,Присутствовали,Присутствовали,Присутствовали,System.String,,False,False,False</value>
+      <value>,НомерДела,НомерДела,НомерДела,System.String,,False,False,False</value>
+      <value>,УстановилПост,УстановилПост,УстановилПост,System.String,,False,False,False</value>
+      <value>,УстановилПодр,УстановилПодр,УстановилПодр,System.String,,False,False,False</value>
+      <value>,Пояснения,Пояснения,Пояснения,System.String,,False,False,False</value>
+      <value>новые,Вотношении,Вотношении,,System.String,,False,False,True</value>
+      <value>новые,ФактАдресКонтрагента,ФактАдресКонтрагента,System.String,,False,False</value>
+      <value>новые,Основание,Основание,System.String,,False,False</value>
+      <value>новые</value>
+      <value>новые,ФизЛицоРП,ФизЛицоРП,System.String,,False,False</value>
+      <value>новые,ФизЛицоТП,ФизЛицоТП,System.String,,False,False</value>
+      <value>новые,ФизЛицоДП,ФизЛицоДП,System.String,,False,False</value>
+      <value>новые,ДолжностьРП,ДолжностьРП,System.String,,False,False</value>
+      <value>новые,ДолжностьТП,ДолжностьТП,System.String,,False,False</value>
+      <value>новые,ДолжностьДП,ДолжностьДП,System.String,,False,False</value>
+      <value>новые,ШтрафДляЛицаЮР,ШтрафДляЛицаЮР,ШтрафДляЛица,System.String,,False,False,False</value>
+      <value>новые,ШтрафДляЛицаФИЗ,ШтрафДляЛицаФИЗ,System.String,,False,False</value>
+      <value>новые,ШтрафДляЛицаДЛ,ШтрафДляЛицаДЛ,System.String,,False,False</value>
+      <value>новые,Контрагент,Контрагент,System.String,,False,False</value>
+      <value>,ШтрафДляЛица,ШтрафДляЛица,System.String,,False,False</value>
+      <value>новые,ВидСанкции,ВидСанкции,,System.String,,False,False,True</value>
+      <value>новые,ОснованиеПрекращения,ОснованиеПрекращения,,System.String,,False,False,True</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="2">
+    <Page1 Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="26">
+        <ReportTitleBand2 Ref="4" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,0.4,18,7</ClientRectangle>
+          <Components isList="true" count="8">
+            <Text43 Ref="5" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>13.4,5.4,4.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>ed5be826937547b99c1358ebb96c8629</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text43</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{ВремяСоставления}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text43>
+            <Text41 Ref="6" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>13.4,4.8,4.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>08d8bc015933483cab5eb1cee81d3616</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text41</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{Дата}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text41>
+            <Text42 Ref="7" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.4,6,4.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8,Italic</Font>
+              <Guid>f18eaf118ec8493492b3ae2b218c9717</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text42</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <PrintOn>OnlyFirstPage</PrintOn>
+              <Text>(дата, время рассмотрения)</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text42>
+            <Text35 Ref="8" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,5.4,6.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8,Italic</Font>
+              <Guid>ce2929431dbd45d8a99d395c9b961c5d</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <PrintOn>OnlyFirstPage</PrintOn>
+              <Text>(место рассмотрения)</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text35>
+            <Text38 Ref="9" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,2,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold</Font>
+              <Guid>a863d1c185e047e9a0d1df1fdd462ed7</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <PrintOn>OnlyFirstPage</PrintOn>
+              <Text>ПОСТАНОВЛЕНИЕ № {Номер}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text38>
+            <Text39 Ref="10" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,2.6,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold</Font>
+              <Guid>7b54d9be6676413885d0621ffd43f058</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text39</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <PrintOn>OnlyFirstPage</PrintOn>
+              <Text>о назначении административного наказания</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text39>
+            <Text40 Ref="11" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,4.8,6.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>5ef03647087e4b8ab0bcf869cc17c53a</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text40</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <PrintOn>OnlyFirstPage</PrintOn>
+              <Text>г.Томск, пр. Кирова, д.41, каб. {МестоРассмотрения}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text40>
+            <Text36 Ref="12" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,18,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>f74d439ee7394177966a39b614db0d61</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>ДЕПАРТАМЕНТ ЖКХ И ГОСУДАРСТВЕННОГО ЖИЛИЩНОГО НАДЗОРА
+&lt;br&gt;ТОМСКОЙ ОБЛАСТИ
+&lt;br&gt;634041, г. Томск, пр. Кирова, 41, тел./факс 905570
+
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text36>
+          </Components>
+          <Conditions isList="true" count="1">
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <Guid>7a6dfc173692499e882dc88fe7a21bc7</Guid>
+          <Name>ReportTitleBand2</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </ReportTitleBand2>
+        <ReportTitleBand3 Ref="13" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,8.2,18,7</ClientRectangle>
+          <Components isList="true" count="8">
+            <Text18 Ref="14" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>13.4,5.4,4.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>39b1e9d2ebe049208b56b8096c26b80e</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="3" />
+              <Parent isRef="13" />
+              <Text>{ВремяСоставления}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text19 Ref="15" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>13.4,4.8,4.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>53236bfddf654f3f951f12dd5827fce2</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="3" />
+              <Parent isRef="13" />
+              <Text>{Дата}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text20 Ref="16" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.4,6,4.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8,Italic</Font>
+              <Guid>f0ad992801ab4c8482fedde93809ef42</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="3" />
+              <Parent isRef="13" />
+              <PrintOn>OnlyFirstPage</PrintOn>
+              <Text>(дата, время рассмотрения)</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text20>
+            <Text21 Ref="17" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,5.4,6.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8,Italic</Font>
+              <Guid>bbed53c1333b4415befd56245da1bee8</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="3" />
+              <Parent isRef="13" />
+              <PrintOn>OnlyFirstPage</PrintOn>
+              <Text>(место рассмотрения)</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text21>
+            <Text22 Ref="18" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,2,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold</Font>
+              <Guid>60353aec64b94934ab6b5a5a8aa2bac9</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="3" />
+              <Parent isRef="13" />
+              <PrintOn>OnlyFirstPage</PrintOn>
+              <Text>ПОСТАНОВЛЕНИЕ № {Номер}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text22>
+            <Text24 Ref="19" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,4.8,6.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>798e8be22a8c473383f702766a9f8fbd</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="3" />
+              <Parent isRef="13" />
+              <PrintOn>OnlyFirstPage</PrintOn>
+              <Text>г.Томск, пр. Кирова, д.41, каб. {МестоРассмотрения}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text25 Ref="20" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,18,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>375a67864f154a3b9bb2ce332d422017</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="3" />
+              <Parent isRef="13" />
+              <Text>ДЕПАРТАМЕНТ ЖКХ И ГОСУДАРСТВЕННОГО ЖИЛИЩНОГО НАДЗОРА
+&lt;br&gt;ТОМСКОЙ ОБЛАСТИ
+&lt;br&gt;634041, г. Томск, пр. Кирова, 41, тел./факс 905570
+
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text25>
+            <Text26 Ref="21" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,2.6,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Bold</Font>
+              <Guid>26522897b60b4a7c84a32c7679e194a7</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="3" />
+              <Parent isRef="13" />
+              <PrintOn>OnlyFirstPage</PrintOn>
+              <Text>о прекращении дела об административном правонарушении</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text26>
+          </Components>
+          <Conditions isList="true" count="2">
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <Guid>25e904cf9926497d816efe61521998c6</Guid>
+          <Name>ReportTitleBand3</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </ReportTitleBand3>
+        <DataBand2 Ref="22" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,16,18,10.6</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text2 Ref="23" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>03282322d34d44049ec025673feb6d60</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="3" />
+              <Parent isRef="22" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{КодДлВынесшегоПостановление} {ФИОДлВынесшегоПостановление}, рассмотрев материалы дела об административном правонарушении № {НомерПротокола} от {ДатаПротокола} , предусмотренном {СтатьяЗакона} об административных правонарушениях, возбужденного в отношении юридического лица - {УправОргРП}, ИНН {ИНН}, юридический адрес:{ЮрАдресКонтрагента}, фактический адрес: {ФактАдресКонтрагента} (далее- {Контрагент})</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text2>
+            <Text10 Ref="24" type="Text" isKey="true">
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,2.6,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>5986a12bf05441cab0ca11fabd5a0432</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="3" />
+              <Parent isRef="22" />
+              <Text>УСТАНОВИЛ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text10>
+            <Text11 Ref="25" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,3.2,18,7.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>8cbb49b2217045f09fa184171a99c4ba</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="3" />
+              <Parent isRef="22" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;В Департамент ЖКХ и государственного жилищного надзора Томской области __________________ поступило {Основание} по адресу: {АдресОбъектаПравонарушения} по поводу {Установил}
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;В соответствии с распоряжением от {ДатаПриказа} № {НомерПриказа} в отношении {Контрагент} проведено мероприятие по контролю за использованием и сохранностью жилищного фонда Томской области.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;По результатам проверки установлено следующее:
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Согласно Выписке от {ЕГРЮЛ} {Контрагент} включено в Единый государственный реестр юридических лиц по месту нахождения данного юридического лица за основным государственным регистрационным номером {ОГРН}, {ФИОРукОрг}.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Согласно уставу {Контрагент}, утвержденному __________.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Согласно акту проверки от {ДатаАкта} № {НомерАкта} в доме по указанному адресу установлены следующие нарушения: {УстановилПодр}
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Таким образом, установлено {УстановилПост}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text11>
+          </Components>
+          <Conditions isList="true" count="6">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_0_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_9_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_11_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_8_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_15_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_18_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_4_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ТипПроверки_x003D__x003D__x0022_проверки_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ТипПроверки_x0021__x003D__x0022_проверки_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ТипПроверки_x003D__x003D__x0022_административного_x0020_расследования_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>0764579b12ff4cdfa820f05eefbf7ca0</Guid>
+          <Name>DataBand2</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand2>
+        <DataBand4 Ref="26" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,27.4,18,10.6</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text5 Ref="27" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>913cdc72511e46c1a84340ffc6ba2b30</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="3" />
+              <Parent isRef="26" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{КодДлВынесшегоПостановление} {ФИОДлВынесшегоПостановление}, рассмотрев материалы дела № {НомерДела} об административном правонарушении, предусмотренном {СтатьяЗакона} об административных правонарушениях, возбужденного в отношении юридического лица - {УправОргРП}, ИНН {ИНН}, юридический адрес:{ЮрАдресКонтрагента}, фактический адрес: {ФактАдресКонтрагента} (далее- {Контрагент})</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text5>
+            <Text8 Ref="28" type="Text" isKey="true">
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,2.6,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>ab35992933194c9898b5405b411bce3a</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="3" />
+              <Parent isRef="26" />
+              <Text>УСТАНОВИЛ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text8>
+            <Text9 Ref="29" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,3.2,18,7.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>9dda93565c8f4bc2bc6e9ebc2f95134b</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="3" />
+              <Parent isRef="26" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;В Департамент ЖКХ и государственного жилищного надзора Томской области __________________ поступило {Основание} по адресу: {АдресОбъектаПравонарушения} по поводу {Установил}
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;В соответствии с опредлением от {ДатаОпределения} № {НомерОпределения} в отношении {Контрагент} проведено мероприятие по контролю за использованием и сохранностью жилищного фонда Томской области.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;По результатам проверки установлено следующее:
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Согласно Выписке от {ЕГРЮЛ} {Контрагент} включено в Единый государственный реестр юридических лиц по месту нахождения данного юридического лица за основным государственным регистрационным номером {ОГРН}, {ФИОРукОрг}.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Согласно уставу {Контрагент}, утвержденному __________.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Согласно протоколу от {ДатаПротокола} № {НомерПротокола} в доме по указанному адресу установлены следующие нарушения: {УстановилПодр}
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Таким образом, установлено {УстановилПост}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text9>
+          </Components>
+          <Conditions isList="true" count="6">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_0_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_9_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_11_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_8_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_15_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_18_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_4_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ТипПроверки_x003D__x003D__x0022_административного_x0020_расследования_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ТипПроверки_x0021__x003D__x0022_административного_x0020_расследования_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ТипПроверки_x003D__x003D__x0022_проверки_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>2db22d2ac1644ff38ad29c801a6615fe</Guid>
+          <Name>DataBand4</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand4>
+        <DataBand1 Ref="30" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,38.8,18,8.2</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text4 Ref="31" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>11aca7f642e2450383486ebdfab8f7ce</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{КодДлВынесшегоПостановление} {ФИОДлВынесшегоПостановление}, рассмотрев материалы дела  об административном правонарушении № {НомерПротокола} от {ДатаПротокола}, предусмотренном {СтатьяЗакона} об административных правонарушениях, возбужденного в отношении должностного лица - {ДолжностьРП} {Контрагент} {ФизЛицоРП}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text4>
+            <Text6 Ref="32" type="Text" isKey="true">
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,2,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>ae7652684bb8439caa846b1617b45f04</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>УСТАНОВИЛ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text6>
+            <Text7 Ref="33" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,2.6,18,5.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>71342e7ab54b49ba9b6e5ace81ea74a4</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;В Департамент ЖКХ и государственного жилищного надзора Томской области __________________ поступило {Основание} по адресу: {АдресОбъектаПравонарушения} по поводу {Установил}
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;В соответствии с распоряжением от {ДатаПриказа} № {НомерПриказа} в отношении должностного лица  {Контрагент} проведено мероприятие по контролю за использованием и сохранностью жилищного фонда Томской области.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;По результатам проверки установлено следующее:
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Согласно акту проверки от {ДатаАкта} № {НомерАкта} в доме по указанному адресу установлены следующие нарушения: {УстановилПодр}
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Таким образом, установлено {УстановилПост}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text7>
+          </Components>
+          <Conditions isList="true" count="7">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_1_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_10_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_12_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_13_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_16_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_19_x0022__x0020__x0026__x0026__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ТипПроверки_x003D__x003D__x0022_проверки_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ТипПроверки_x0021__x003D__x0022_проверки_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ТипПроверки_x003D__x003D__x0022_административного_x0020_расследования_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_6_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_7_x0022__x0020__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_14_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_20_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_2_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>d9c9feaa1f484191903ae42d8e4ed862</Guid>
+          <Name>DataBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <DataBand5 Ref="34" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,47.8,18,8.2</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text13 Ref="35" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>d9cdf2174b9c4a3e91715577770651b9</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="3" />
+              <Parent isRef="34" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{КодДлВынесшегоПостановление} {ФИОДлВынесшегоПостановление}, рассмотрев материалы дела  об административном правонарушении {НомерДела}, предусмотренном {СтатьяЗакона} об административных правонарушениях, возбужденного в отношении должностного лица - {ДолжностьРП} {Контрагент} {ФизЛицоРП}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text13>
+            <Text14 Ref="36" type="Text" isKey="true">
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,2,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>e8b63ee0c9494b96aaf502633b63a7b1</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="3" />
+              <Parent isRef="34" />
+              <Text>УСТАНОВИЛ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text14>
+            <Text16 Ref="37" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,2.6,18,5.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>0d314263f3154061840d47cadcd8301f</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="3" />
+              <Parent isRef="34" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;В Департамент ЖКХ и государственного жилищного надзора Томской области __________________ поступило {Основание} по адресу: {АдресОбъектаПравонарушения} по поводу {Установил}
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;В соответствии с распоряжением от {ДатаПриказа} № {НомерПриказа} в отношении должностного лица  {Контрагент} проведено мероприятие по контролю за использованием и сохранностью жилищного фонда Томской области.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;По результатам проверки установлено следующее:
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Согласно протоколу от {ДатаПротокола} № {НомерПротокола} в доме по указанному адресу установлены следующие нарушения: {УстановилПодр}
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Таким образом, установлено {УстановилПост}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text16>
+          </Components>
+          <Conditions isList="true" count="7">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_1_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_10_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_12_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_13_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_16_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_19_x0022__x0020__x0026__x0026__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ТипПроверки_x003D__x003D__x0022_административного_x0020_расследования_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ТипПроверки_x0021__x003D__x0022_административного_x0020_расследования_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ТипПроверки_x003D__x003D__x0022_проверки_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_6_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_7_x0022__x0020__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_14_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_20_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_2_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>c8c63614562b4052981537d6b66ef4b5</Guid>
+          <Name>DataBand5</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand5>
+        <Table1 Ref="38" type="Stimulsoft.Report.Components.Table.StiTable" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,56.8,18,0.8</ClientRectangle>
+          <ColumnCount>1</ColumnCount>
+          <Components isList="true" count="1">
+            <Table1_Cell1 Ref="39" type="TableCell" isKey="true">
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,17.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>25a392ad15ba4d1cb3cc1b8d33165b05</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <ID>0</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>Table1_Cell1</Name>
+              <Page isRef="3" />
+              <Parent isRef="38" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{НормыПрава.Информация}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Table1_Cell1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>НормыПрава</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Guid>8a7b570dcb7248e488030ebb0d5774e4</Guid>
+          <MinHeight>0.2</MinHeight>
+          <Name>Table1</Name>
+          <NumberID>25</NumberID>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <RowCount>1</RowCount>
+          <Sort isList="true" count="0" />
+        </Table1>
+        <DataBand9 Ref="40" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,58.4,18,5.8</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text15 Ref="41" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,18,5.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>4bd8ede41fe14539b271f5d0f6b5fb4f</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="3" />
+              <Parent isRef="40" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;По окончании проверки в отношении юридического лица {Контрагент} составлен протокол от {ДатаПротокола} № {НомерПротокола} об административном правонарушении  по  {СтатьяЗакона} ({ОписСтатьи}).
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Административная ответственность за данное правонарушение для юридических лиц установлена {СтатьяЗакона} в виде  административного штрафа в размере {ШтрафДляЛицаЮР}.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Определением {НомерОпределения} от {ДатаОпределения}, рассмотрение настоящего административного дела назначено на {ДатаИВремяРассмотренияДела}. Данное определение получено {Контрагент} (вх. № __________ от _________________).
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Рассмотрение настоящего административного дела проходило {ДатаРассмотренияДела} при участии представителя {Контрагент}, которые заявили, что {Ходатайство}{ТекстХодатайства}.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;По существу настоящего дела {Присутствовали} пояснил(и)(а), что {Пояснения}.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text15>
+          </Components>
+          <Conditions isList="true" count="2">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_0_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_9_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_11_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_8_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_15_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_18_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_4_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>5e23a7776ac24b94a0bc2740852b274c</Guid>
+          <Name>DataBand9</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand9>
+        <DataBand3 Ref="42" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,65,18,5.6</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text1 Ref="43" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,5.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>ae8d8b03e7d94f00b065011c837ba153</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="3" />
+              <Parent isRef="42" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;По окончании проверки в отношении должностного лица {Контрагент} {ФизЛицоРП} составлен протокол от {ДатаПротокола} № {НомерПротокола} об административном правонарушении  по  {СтатьяЗакона} ({ОписСтатьи}).
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Административная ответственность за данное правонарушение для должностных лиц установлена {СтатьяЗакона} в виде  административного штрафа в размере {ШтрафДляЛицаДЛ}.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Определением {НомерОпределения} от {ДатаОпределения}, рассмотрение настоящего административного дела назначено на {ДатаИВремяРассмотренияДела}. Данное определение получено {Контрагент} (вх. № __________ от _________________).
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Рассмотрение настоящего административного дела проходило {ДатаРассмотренияДела} при участии должностного лица {Контрагент}, которая заявила, что {Ходатайство}{ТекстХодатайства}.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;По существу настоящего дела {Присутствовали} пояснил(и)(а), что {Пояснения}.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text1>
+          </Components>
+          <Conditions isList="true" count="5">
+            <value>_x007B_ПолФизЛица_x0021__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ПолФизЛица_x003D__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_1_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_10_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_12_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_13_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_16_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_19_x0022__x0020__x0026__x0026__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ПолФизЛица_x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>474213caa2f34bfc9d637700ee8a2744</Guid>
+          <Name>DataBand3</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand3>
+        <DataBand10 Ref="44" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,71.4,18,5.6</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text12 Ref="45" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,5.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>512e0513984947a082f0eb0114f2c815</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="3" />
+              <Parent isRef="44" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;По окончании проверки в отношении {ДолжностьРП} {Контрагент} {ФизЛицоРП} составлен протокол от {ДатаПротокола} № {НомерПротокола} об административном правонарушении  по  {СтатьяЗакона} ({ОписСтатьи}).
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Административная ответственность за данное правонарушение для должностных лиц установлена {СтатьяЗакона} в виде  административного штрафа в размере {ШтрафДляЛицаДЛ}.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Определением {НомерОпределения} от {ДатаОпределения}, рассмотрение настоящего административного дела назначено на {ДатаИВремяРассмотренияДела}. Данное определение получено {ДолжностьТП} {Контрагент} {ФизЛицоТП} (вх. № __________ от _________________).
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Рассмотрение настоящего административного дела проходило {ДатаРассмотренияДела} при участии должностного лица {Контрагент}, который заявил, что {Ходатайство}{ТекстХодатайства}.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;По существу настоящего дела {Присутствовали} пояснил(и)(а), что {Пояснения}.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text12>
+          </Components>
+          <Conditions isList="true" count="5">
+            <value>_x007B_ПолФизЛица_x0021__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ПолФизЛица_x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_1_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_10_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_12_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_13_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_16_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_19_x0022__x0020__x0026__x0026__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ПолФизЛица_x003D__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>4ccc5574aa4943e69a555291f4c7cbaa</Guid>
+          <Name>DataBand10</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand10>
+        <DataBand6 Ref="46" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,77.8,18,2.2</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text17 Ref="47" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>aebb60599d6546099134afec20b397d5</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="3" />
+              <Parent isRef="46" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Изучив представленные материалы, состава административного правонарушения (вины)юридического лица - {Контрагент} в {ОписСтатьи} не установлено
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;На основании изложенного и руководствуясь статьями 23.55, п. 2 ч.1 ст.24.5, п.2 ч.1 ст.29.9,  29.10 Кодекса РФ об административных правонарушениях.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text17>
+          </Components>
+          <Conditions isList="true" count="8">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_0_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_9_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_11_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_8_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_15_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_18_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_4_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x0021__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>c28f8636a4a34765a593053606f43cd5</Guid>
+          <Name>DataBand6</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand6>
+        <DataBand7 Ref="48" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,80.8,18,2.2</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text23 Ref="49" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>8281d131b3204170b145a661d855ef88</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="3" />
+              <Parent isRef="48" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Изучив представленные материалы, состава административного правонарушения (вины)должностного лица - {ДолжностьРП} {Контрагент} {ФизЛицоРП} в {ОписСтатьи} не установлено
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;На основании изложенного и руководствуясь статьями 23.55, п. 2 ч.1 ст.24.5, п.2 ч.1 ст.29.9,  29.10 Кодекса РФ об административных правонарушениях.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text23>
+          </Components>
+          <Conditions isList="true" count="8">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_1_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_10_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_12_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_13_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_16_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_19_x0022__x0020__x0026__x0026__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x0021__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>cacac3df622e4b49a7038f6a1a58724b</Guid>
+          <Name>DataBand7</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand7>
+        <DataBand8 Ref="50" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,83.8,18,5</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text29 Ref="51" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,4.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>f8a5d56a7e0e46eca31a935bdfbb5e2b</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="3" />
+              <Parent isRef="50" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Изучив материалы настоящего административного дела, установлен факт административного правонарушения по {СтатьяЗакона} - {ОписСтатьи}
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Учитывая, что выявленное правонарушение не представляет большого общественного вреда и не наносит значительного ущерба, должностное лицо, рассматривающее настоящее административное дело, руководствуясь ст. 2.9 КоАП РФ (возможность освобождения от административной ответственности при малозначительности административного правонарушения), полагает возможным освободить юридическое лицо – {Контрагент} от административной ответственности за совершенное административное правонарушение.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;На основании изложенного и руководствуясь статьями 2.9, 23.55; п.2 ч.1 ст.29.9,  29.10 Кодекса РФ об административных правонарушениях,</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text29>
+          </Components>
+          <Conditions isList="true" count="10">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_0_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_9_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_11_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_8_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_15_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_18_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_4_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x0021__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>5b455f9be3804ce483041e3eb28e2072</Guid>
+          <Name>DataBand8</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand8>
+        <DataBand11 Ref="52" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,89.6,18,5</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text32 Ref="53" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,4.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>ea59e1b198f944ed9ec7621a2868d57f</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="3" />
+              <Parent isRef="52" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Изучив материалы настоящего административного дела, установлен факт административного правонарушения по {СтатьяЗакона} - {ОписСтатьи}
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Учитывая, что выявленное правонарушение не представляет большого общественного вреда и не наносит значительного ущерба, должностное лицо, рассматривающее настоящее административное дело, руководствуясь ст. 2.9 КоАП РФ (возможность освобождения от административной ответственности при малозначительности административного правонарушения), полагает возможным освободить должностное лицо – {ДолжностьРП} {Контрагент} {ФизЛицоРП} от административной ответственности за совершенное административное правонарушение.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;На основании изложенного и руководствуясь статьями 2.9, 23.55; п.2 ч.1 ст.29.9,  29.10 Кодекса РФ об административных правонарушениях,</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text32>
+          </Components>
+          <Conditions isList="true" count="10">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_1_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_10_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_12_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_13_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_16_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_19_x0022__x0020__x0026__x0026__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x0021__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>729872cfd7144923bf1576054f93396a</Guid>
+          <Name>DataBand11</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand11>
+        <DataBand15 Ref="54" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,95.4,18,3.6</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text37 Ref="55" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,3.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>44af8fe9ef4c42c6a948f12673ce79f2</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="3" />
+              <Parent isRef="54" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;В соответствии с п.1 ст. 4.5 Кодекса РФ об административных правонарушениях  постановление по делу об административном правонарушении не может быть вынесено по истечению двух месяцев со дня совершения административного правонарушения.
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;________________________ истек срок привлечения указанного лица к административной ответственности
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;На основании изложенного и руководствуясь статьями 23.55; п.2 ст.24.5; ч.4 ст.24.7; п.2 ч. 1 ст.29.9,  29.10 Кодекса РФ об административных правонарушениях,</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text37>
+          </Components>
+          <Conditions isList="true" count="9">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x0020__x007C__x007C__x0020__x000D__x000A__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_0_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_9_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_11_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_8_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_15_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_18_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_4_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_17_x0022__x0020__x0026__x0026__x000D__x000A__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x0026__x0026__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_4_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x0021__x003D__x0020__x0022_4_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>521d1dcc37a2410cabab14402ea31662</Guid>
+          <Name>DataBand15</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand15>
+        <DataBand12 Ref="56" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,99.8,18,3.8</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text27 Ref="57" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>ae3fa1e69d8641d0ae0b25216b8851ef</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="3" />
+              <Parent isRef="56" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;На основании  изложенного и руководствуясь статьями ст. 23.55, 
+п. 4 ст.24.7, п.1 ч.1 ст. 29.9 и ст. 29.10 Кодекса РФ об административных правонарушениях
+&lt;br&gt;&lt;br&gt;
+&lt;text-align="center"&gt;ПОСТАНОВИЛ:&lt;/text-align&gt;</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text27>
+            <Text28 Ref="58" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,2,18,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>905a627013144a3abd4a00ec0b27987a</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="3" />
+              <Parent isRef="56" />
+              <Text>1. Признать юридическое лицо - {Контрагент}  виновным в совершении административного 
+правонарушения, ответственность за которое предусмотрена 
+{СтатьяЗакона}.
+&lt;br&gt;2. Наложить на {Контрагент} административный штраф в размере {ToCurrencyWordsRu(Штраф)}.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text28>
+          </Components>
+          <Conditions isList="true" count="5">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_0_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_9_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_11_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_8_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_15_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_18_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_4_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>f8e6924fcfbf40ec80eaf5eb0eaca7fc</Guid>
+          <Name>DataBand12</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand12>
+        <DataBand17 Ref="59" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,104.4,18,2.4</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text62 Ref="60" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text62</Name>
+              <Page isRef="3" />
+              <Parent isRef="59" />
+              <Text>ПОСТАНОВИЛ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text62>
+            <Text48 Ref="61" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0.6,18,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>39c9afc182a64c9c95db8bf6e6203034</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text48</Name>
+              <Page isRef="3" />
+              <Parent isRef="59" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1.	Дело __________  об административном правонарушении, предусмотренном {СтатьяЗакона}, 
+возбужденного в отношении юридического лица - {Контрагент} прекратить, в связи с отсутствием состава административного правонарушения.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text48>
+          </Components>
+          <Conditions isList="true" count="9">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_0_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_9_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_11_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_8_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_15_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_18_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_4_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x0021__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>e3fde42d4750498a96428991f532ab9e</Guid>
+          <Name>DataBand17</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand17>
+        <DataBand16 Ref="62" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,107.6,18,2.4</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text63 Ref="63" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0.6,18,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>f85b53a5a11f430b81684e39e377d061</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text63</Name>
+              <Page isRef="3" />
+              <Parent isRef="62" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1.	Дело __________  об административном правонарушении, предусмотренном {СтатьяЗакона}, 
+возбужденного в отношении должностного лица - {ДолжностьРП} {Контрагент} {ФизЛицоРП} прекратить, в связи с отсутствием состава административного правонарушения.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text63>
+            <Text64 Ref="64" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>d1a1ea8dd4f54a3eb22c8e9d4645cb51</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text64</Name>
+              <Page isRef="3" />
+              <Parent isRef="62" />
+              <Text>ПОСТАНОВИЛ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text64>
+          </Components>
+          <Conditions isList="true" count="9">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_1_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_10_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_12_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_13_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_16_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_19_x0022__x0020__x0026__x0026__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x0021__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>c76a6b6db44b42e1bd0bd725b030b7e8</Guid>
+          <Name>DataBand16</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand16>
+        <DataBand18 Ref="65" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,110.8,18,2.4</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text65 Ref="66" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0.6,18,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>2b3e66c935134b8f843e22d37c633df2</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text65</Name>
+              <Page isRef="3" />
+              <Parent isRef="65" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. юридическое лицо - {Контрагент} , за совершенное административное правонарушение, предусмотренное {СтатьяЗакона} – освободить от административной ответственности, ограничившись объявлением устного замечания. </Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text65>
+            <Text66 Ref="67" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>94fcb16b25424d229920e4d3aec0e9d3</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text66</Name>
+              <Page isRef="3" />
+              <Parent isRef="65" />
+              <Text>ПОСТАНОВИЛ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text66>
+          </Components>
+          <Conditions isList="true" count="10">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_0_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_9_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_11_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_8_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_15_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_18_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_4_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x0021__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>f6e7405ea4944609a7c2b15b6b02bed2</Guid>
+          <Name>DataBand18</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand18>
+        <DataBand19 Ref="68" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,114,18,2.4</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text68 Ref="69" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>7f64f0d2c4b040f6831065f64aa4bd8a</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text68</Name>
+              <Page isRef="3" />
+              <Parent isRef="68" />
+              <Text>ПОСТАНОВИЛ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text68>
+            <Text67 Ref="70" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0.6,18,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>c462061a0f4d411487cef630783ec0e3</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text67</Name>
+              <Page isRef="3" />
+              <Parent isRef="68" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. должностное лицо - {ДолжностьРП} {Контрагент} {ФизЛицоРП} , за совершенное административное правонарушение, предусмотренное {СтатьяЗакона} – освободить от административной ответственности, ограничившись объявлением устного замечания. </Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text67>
+          </Components>
+          <Conditions isList="true" count="10">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_1_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_10_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_12_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_13_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_16_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_19_x0022__x0020__x0026__x0026__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x0021__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_3_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>84293348d71b40458221c8f86f1926cd</Guid>
+          <Name>DataBand19</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand19>
+        <DataBand20 Ref="71" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,117.2,18,2.4</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text69 Ref="72" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>436440a506b847ebb770e58bad71e913</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text69</Name>
+              <Page isRef="3" />
+              <Parent isRef="71" />
+              <Text>ПОСТАНОВИЛ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text69>
+            <Text70 Ref="73" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0.6,18,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>d9c60ed16a3640cfb616a3e0851cdab1</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text70</Name>
+              <Page isRef="3" />
+              <Parent isRef="71" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1.	Дело __________  об административном правонарушении, предусмотренном {СтатьяЗакона}, 
+возбужденного в отношении юридического лица - {Контрагент} прекратить, в связи с истечением срока давности привлечения к административной ответственности.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text70>
+          </Components>
+          <Conditions isList="true" count="9">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_0_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_9_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_11_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_8_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_15_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_18_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_4_x0022__x0020__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0020__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_4_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x0021__x003D__x0020__x0022_4_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>39e0e86709754a1ca27280ded81a2326</Guid>
+          <Name>DataBand20</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand20>
+        <DataBand21 Ref="74" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,120.4,18,2.4</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text71 Ref="75" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0.6,18,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>446c3cd01a1246ec892cd8b4fc51ab64</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text71</Name>
+              <Page isRef="3" />
+              <Parent isRef="74" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1.	Дело __________  об административном правонарушении, предусмотренном {СтатьяЗакона}, 
+возбужденного в отношении должностного лица - {ДолжностьРП} {Контрагент} {ФизЛицоРП} прекратить, в связи с истечением срока давности привлечения к административной ответственности.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text71>
+            <Text72 Ref="76" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>156972bb5cfc4579bfe5a28bb27d0a31</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text72</Name>
+              <Page isRef="3" />
+              <Parent isRef="74" />
+              <Text>ПОСТАНОВИЛ:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text72>
+          </Components>
+          <Conditions isList="true" count="8">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_1_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_10_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_12_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_13_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_16_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_19_x0022__x0020__x0026__x0026__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x003D__x003D__x0020__x0022_4_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ОснованиеПрекращения_x0020__x0021__x003D__x0020__x0022_4_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_0_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_9_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_11_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_8_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_15_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_18_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_4_x0022__x0020__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_17_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>1912199ca6c843edba7686319f78083d</Guid>
+          <Name>DataBand21</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand21>
+        <DataBand13 Ref="77" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,123.6,18,4.4</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text30 Ref="78" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>d7466666bd284569b6e83dc99a1cbf80</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="3" />
+              <Parent isRef="77" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;На основании  изложенного и руководствуясь статьями ст. 23.55, п. 4 ст.24.7, п.1 ч.1 ст. 29.9 и ст. 29.10 Кодекса РФ 
+об административных правонарушениях
+&lt;br&gt;&lt;br&gt;
+&lt;text-align="center"&gt;ПОСТАНОВИЛ:&lt;/text-align&gt;</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text30>
+            <Text31 Ref="79" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>None;[105:105:105];1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,2,18,2.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,12</Font>
+              <Guid>2f48679eb7704309be40fa2de5f9e60d</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="3" />
+              <Parent isRef="77" />
+              <Text>1. Признать должносное лицо - {ДолжностьРП} {Контрагент} {ФизЛицоРП} виновным в совершении административного правонарушения, ответственность за которое предусмотрена {СтатьяЗакона}
+&lt;br&gt;2. Наложить на {ФизЛицоРП} административный штраф в размере {ToCurrencyWordsRu(Штраф)}.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text31>
+          </Components>
+          <Conditions isList="true" count="3">
+            <value>_x007B_Вотношении_x0020__x003D__x003D__x0020__x0022_1_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_10_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_12_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_13_x0022__x0020__x007C__x007C__x0020__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_16_x0022__x0020__x007C__x007C__x0020_Вотношении_x0020__x003D__x003D__x0020__x0022_19_x0022__x0020__x007C__x007C__x000D__x000A_Вотношении_x0020__x003D__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_Вотношении_x0020__x0021__x003D__x0020__x0022_1_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_10_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_12_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_13_x0022__x0020__x0026__x0026__x0020__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_16_x0022__x0020__x0026__x0026__x0020_Вотношении_x0020__x0021__x003D__x0020__x0022_19_x0022__x0020__x0026__x0026__x000D__x000A_Вотношении_x0020__x0021__x003D__x0020__x0022_5_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>0824173893974c39857f99d8dd789e42</Guid>
+          <Name>DataBand13</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand13>
+        <DataBand22 Ref="80" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,128.8,18,2.2</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text49 Ref="81" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,0,18,2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,10,Bold</Font>
+              <Guid>0409a5ec74ce4f3e9d4f0a4582f7d621</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text49</Name>
+              <Page isRef="3" />
+              <Parent isRef="80" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+Административный штраф подлежит перечислению лицом, привлеченным 
+к административной ответственности, не позднее 60 дней со вступления 
+настоящего постановления в законную силу в соответствии со статьей 
+31.1 КоАП, либо со дня истечения срока отсрочки или рассрочки.
+&lt;br&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+Квитанцию об оплате штрафа предъявить в Департамент ЖКХ 
+и государственного жилищного надзора Томской области.
+&lt;/b&gt;</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text49>
+          </Components>
+          <Conditions isList="true" count="2">
+            <value>_x007B_ВидСанкции_x0020__x0021__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,True,False,,,None</value>
+            <value>_x007B_ВидСанкции_x0020__x003D__x003D__x0022_2_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <Filters isList="true" count="0" />
+          <Name>DataBand22</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand22>
+        <DataBand14 Ref="82" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,131.8,18,10</ClientRectangle>
+          <Components isList="true" count="12">
+            <Text59 Ref="83" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,2.8,18,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Italic</Font>
+              <Guid>22ea61109f4c48c5801d31d8a2d5d303</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text59</Name>
+              <Page isRef="3" />
+              <Parent isRef="82" />
+              <Text>(суммы: 1).выплачиваемые свидетелям, понятым, специалистам, экспертам, переводчикам; 2).израсходованные на  
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text59>
+            <Text60 Ref="84" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,3.6,18,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Italic</Font>
+              <Guid>ac357f52b7ec44169972fcced1f588c2</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text60</Name>
+              <Page isRef="3" />
+              <Parent isRef="82" />
+              <Text>хранение, перевозку (пересылку) и исследование вещественных доказательств. Порядок возмещения издержек)</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text60>
+            <Text33 Ref="85" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,4.4,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12,Strikeout,Point,False,204</Font>
+              <Guid>8d9975e9bcca4b61bc35f3873e05cb12</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="3" />
+              <Parent isRef="82" />
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text33>
+            <Text57 Ref="86" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,2.2,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>9bf161d5d46442f6bddc4d32421b70d0</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text57</Name>
+              <Page isRef="3" />
+              <Parent isRef="82" />
+              <Text>4. Издержки по делу об административном правонарушении _________________________________</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text57>
+            <Text56 Ref="87" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,1.2,18,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8</Font>
+              <Guid>c13393c3d3ce4b2e90d3fd17e50febd1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text56</Name>
+              <Page isRef="3" />
+              <Parent isRef="82" />
+              <Text>*1) вещи возвращаются законному владельцу; &lt;br&gt;
+&amp;nbsp;&amp;nbsp;2) вещи передаются в  соответствующие организации, уничтожаются; &lt;br&gt;
+&amp;nbsp;&amp;nbsp;3) документы остаются в деле; передаются заинтересованным лицам в соответствии с законодательством РФ
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text56>
+            <Text34 Ref="88" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>10.6,8,7.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>e48ecedde8d74e37b8be3ce8a8a51777</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="3" />
+              <Parent isRef="82" />
+              <Text>{КодРуководителяФИО_сИнициалами}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text34>
+            <Text44 Ref="89" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,8,7.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>914e5827330f49f4b7c570df7b69d41b</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text44</Name>
+              <Page isRef="3" />
+              <Parent isRef="82" />
+              <Text>{КодДлВынесшегоПостановление}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text44>
+            <Text45 Ref="90" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,5.2,18,2.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Font>Times New Roman,10,Bold</Font>
+              <Guid>352788b43b914d4587e39bb95b58d7b1</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text45</Name>
+              <Page isRef="3" />
+              <Parent isRef="82" />
+              <Text>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Настоящее постановление может быть обжаловано лицом, в отношении которого оно вынесено, потерпевшим, их защитниками, представителями в вышестоящий орган, вышестоящему должностному лицу, либо в суд по месту рассмотрения дела, а по делу о административном правонарушении, совершенном юридическим лицом или лицом, осуществляющим предпринимательскую деятельность в арбитражный суд Томской области в течение 10 суток со дня вручения или получения копии постановления. </Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text45>
+            <Text46 Ref="91" type="Text" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.6,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8,Italic</Font>
+              <Guid>e9822ec0f18340ed8d99481d540582ce</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text46</Name>
+              <Page isRef="3" />
+              <Parent isRef="82" />
+              <Text>какие именно вещи и документы;  суть принятого решения:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text46>
+            <Text47 Ref="92" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,18,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,12</Font>
+              <Guid>bf06999427f847d7a6b47dd4c398ca8e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text47</Name>
+              <Page isRef="3" />
+              <Parent isRef="82" />
+              <Text>3. Вещественные доказательства </Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text47>
+            <Text50 Ref="93" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,9.2,1,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8</Font>
+              <Guid>142f428931c9406bbf0552c2e46d23ac</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text50</Name>
+              <Page isRef="3" />
+              <Parent isRef="82" />
+              <Text>М.П.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text50>
+            <Text51 Ref="94" type="Text" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>10.6,8.6,7.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8,Italic</Font>
+              <Guid>73c018de2740475cbc4f2542daa16ebc</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text51</Name>
+              <Page isRef="3" />
+              <Parent isRef="82" />
+              <Text>(ФИО должностного лица вынесшего постановление)</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text51>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Guid>c53d7967b0ad4503acc53948fb20592e</Guid>
+          <Name>DataBand14</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand14>
+        <ReportSummaryBand1 Ref="95" type="ReportSummaryBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,142.6,18,8</ClientRectangle>
+          <Components isList="true" count="6">
+            <Text52 Ref="96" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,1.2,9.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>1abddc17441c4e7c9592e05a51b23e1b</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text52</Name>
+              <Page isRef="3" />
+              <Parent isRef="95" />
+              <Text>2. потерпевшему (представителю)   "_____" ___________  20____ г.</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text52>
+            <Text53 Ref="97" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,11.6,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>3d047ee4ef124474ba9cea6baa730f6e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text53</Name>
+              <Page isRef="3" />
+              <Parent isRef="95" />
+              <Text>Копия постановления вручена:
+&lt;br&gt;
+1. лицу, в отношении которого рассмотрено дело "_____" ______________  20____ г.</Text>
+              <TextBrush>Black</TextBrush>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text53>
+            <Text54 Ref="98" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,2,18,1.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>e2ed3b730a7741ea9e26d35622abadc7</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text54</Name>
+              <Page isRef="3" />
+              <Parent isRef="95" />
+              <Text>Отметка о высылке постановления:
+&lt;br&gt;
+Лицу, в отношении которого рассмотрено дело    
+_________________________________________________________
+&lt;br&gt; &lt;i&gt;
+&lt;font-size="8"&gt;
+&lt;text-align="center"&gt;
+(дата и номер квитанции)
+&lt;/i&gt;
+&lt;/font-size&gt;
+&lt;/text-align&gt;
+&lt;br&gt;
+Потерпевшему 
+______________________________________________________________________________________
+&lt;br&gt;
+&lt;i&gt;
+&lt;font-size="8"&gt;
+&lt;text-align="center"&gt;
+(дата и номер квитанции)
+
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text54>
+            <Text55 Ref="99" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,3.8,18,3.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>a7f6e1ca47674b279f0e34d170f0dd67</Guid>
+              <HorAlignment>Width</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text55</Name>
+              <Page isRef="3" />
+              <Parent isRef="95" />
+              <Text>&lt;b&gt;
+В соответствии со ст. 31.1 Кодекса РФ об административных правонарушениях 
+постановление вступает в законную силу после истечения срока 
+для обжалования постановления по делу об административном правонарушении &lt;br&gt;
+Срок обращения к исполнению: _______________________________ 
+&lt;br&gt;
+Постановление обращено к исполнению: _______________________
+&lt;br&gt;
+Срок предъявления постановления к исполнению:______________
+&lt;br&gt;
+Реквизиты для уплаты административного штрафа:
+&lt;br&gt;
+Получатель:  УФК МФ РФ по ТО (Департамент ЖКХ и государственного жилищного надзора ТО)
+&lt;/b&gt;
+&lt;br&gt;
+р/с 401 018 109 000 000 1 000 7 в ГРКЦ ГУ Банка России
+&lt;br&gt;
+по Томской области  г. Томск БИК 046902001ИНН 702 105 20 41 
+&lt;br&gt;
+КПП 701 701 001 ОКТМО 69701000 Штраф код 828 1 16 90040 04 0000 140</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text55>
+            <Text58 Ref="100" type="Text" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.6,0.8,4.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8,Bold| Italic</Font>
+              <Guid>9558106fdeb040b9b77d4ed58838d3f2</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text58</Name>
+              <Page isRef="3" />
+              <Parent isRef="95" />
+              <Text>(подпись)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text58>
+            <Text61 Ref="101" type="Text" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.4,1.6,4.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,8,Bold| Italic</Font>
+              <Guid>88d7f5b6ec5f437681d8928f9586f70e</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text61</Name>
+              <Page isRef="3" />
+              <Parent isRef="95" />
+              <Text>(подпись)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text61>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>4e6e48d189404e56a7e5bc170a52de47</Guid>
+          <Name>ReportSummaryBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </ReportSummaryBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>3719af0d49ac489ea54d4d0310c0d9d4</Guid>
+      <LargeHeight>True</LargeHeight>
+      <LargeHeightFactor>7</LargeHeightFactor>
+      <Margins>2,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="102" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+    <Page2 Ref="103" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="1">
+        <ReportTitleBand1 Ref="104" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,0.4,19,21.6</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text3 Ref="105" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <AutoWidth>True</AutoWidth>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,19,21.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <DockStyle>Top</DockStyle>
+              <Font>Times New Roman,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>4be0994d9108437ca9e932772e8dc1d5</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="103" />
+              <Parent isRef="104" />
+              <PrintOn>OnlyFirstPage</PrintOn>
+              <Text>&lt;b&gt;{Номер}&lt;/b&gt; - номер постановления&lt;br&gt;
+&lt;b&gt;{Дата}&lt;/b&gt; - дата постановления&lt;br&gt;
+&lt;b&gt;{ПолФизЛица}&lt;/b&gt; - пол физ лица. Если Пол незадан , то = "3", если мужской, то = "1", если женский, то = "2"&lt;br&gt;
+&lt;b&gt;{РеквизитыФизЛица}&lt;/b&gt; - реквизиты физ лица в постановлении&lt;br&gt;
+&lt;b&gt;{ВремяСоставления}&lt;/b&gt; -время составления в постановлени&lt;br&gt;
+&lt;b&gt;{КодДлВынесшегоПостановление}&lt;/b&gt; - код ДЛ, вынесшего постановление&lt;br&gt;
+&lt;b&gt;{ФИОДлВынесшегоПостановление}&lt;/b&gt; - ФИО ДЛ, вынесшего постановление&lt;br&gt;
+&lt;b&gt;{КодРуководителяФИО_сИнициалами}&lt;/b&gt; - код руководителя вынесшего постановление&lt;br&gt;
+&lt;b&gt;{Штраф}&lt;/b&gt; - Сумма штрафа&lt;br&gt;
+&lt;b&gt;{ToCurrencyWordsRu(Штраф)}&lt;/b&gt; - Сумма штрафа прописью&lt;br&gt;
+&lt;b&gt;{Кого}&lt;/b&gt; - В отношении кого проверка&lt;br&gt;
+&lt;b&gt;{УправОргРП}&lt;/b&gt; - из постановления Контрагент наименование в родительском падеже&lt;br&gt;
+&lt;b&gt;{ИНН}&lt;/b&gt; - инн контрагента&lt;br&gt;
+&lt;b&gt;{КПП}&lt;/b&gt; - кпп контрагента&lt;br&gt;
+&lt;b&gt;{ОГРН}&lt;/b&gt; - огрн контрагента&lt;br&gt;
+&lt;b&gt;{ЮрАдресКонтрагента}&lt;/b&gt; - юр Адрес контрагента&lt;br&gt;
+&lt;b&gt;{ФИОРукОрг}&lt;/b&gt; - фио руководителя&lt;br&gt;
+&lt;b&gt;{ЧастьРаздельно}&lt;/b&gt; - часть раздельно (из родительского протокола)&lt;br&gt;
+&lt;b&gt;{СтатьяРаздельно}&lt;/b&gt;  - статья раздельно (из родительского протокола)&lt;br&gt;
+&lt;b&gt;{АдресОбъектаПравонарушения}&lt;/b&gt; - Адрес берется из родительского протокола по наршуениям. Если у родительского проткола нет нарушений то небудет адреса&lt;br&gt;
+&lt;b&gt;{ДатаИВремяРассмотренияДела}&lt;/b&gt; - Из родительског опротокола дата и время составления&lt;br&gt;
+&lt;b&gt;{ОписСтатьи}&lt;/b&gt; - Из родительског опротокола описание статей&lt;br&gt;
+&lt;b&gt;{НарушенныеТребования}&lt;/b&gt; - из родительског опротокола берутся с татьи и взависимости от статьи формируется переменная&lt;br&gt;
+&lt;b&gt;{Установил}&lt;/b&gt; - из родительског опротокола берутся с татьи и взависимости от статьи формируется переменная&lt;br&gt;
+&lt;b&gt;{ДатаОпределения}&lt;/b&gt; - дата определения - Из родительског опротокола ьерется ближайшее определение с типом "О назначении времени и места рассмотрения дела"&lt;br&gt;
+&lt;b&gt;{НомерОпределения}&lt;/b&gt; - номер определения - Из родительског опротокола ьерется ближайшее определение с типом "О назначении времени и места рассмотрения дела"&lt;br&gt;
+&lt;b&gt;{МестоРассмотрения}&lt;/b&gt; - место рассмотрение определения - Из родительског опротокола ьерется ближайшее определение с типом "О назначении времени и места рассмотрения дела"&lt;br&gt;
+&lt;b&gt;{ДатаПриказа}&lt;/b&gt; - дата родительског оприказа&lt;br&gt;
+&lt;b&gt;{ДатаАкта}&lt;/b&gt; - дата родительского акта&lt;br&gt;
+&lt;b&gt;{ТипПроверки}&lt;/b&gt; - Если постановление создано из Административного дела то выводится "административное расследование", иначе выводится "проверка"&lt;br&gt;
+&lt;b&gt;{СтатьяЗакона}&lt;/b&gt; - Первая статья закона из родительского протокола&lt;br&gt;
+&lt;b&gt;{НомерПриказа}&lt;/b&gt; - Номер родительского приказа&lt;br&gt;
+&lt;b&gt;{КодРуководителяФИО}&lt;/b&gt; - Справочник «Инспекторы», значение поля Код. брать инспектора из поля "ДЛ, вынесшее распоряжение"&lt;br&gt;
+&lt;b&gt;{ДатаПротокола}&lt;/b&gt; - Дата родительского протокола&lt;br&gt;
+&lt;b&gt;{НомерАкта}&lt;/b&gt; - Номер ближайшего родительского акта&lt;br&gt;
+&lt;b&gt;{НомерПротокола}&lt;/b&gt; - Номер родителеского Протокола&lt;br&gt;
+&lt;b&gt;{ТипИсполнителя}&lt;/b&gt; - код поля тип исполнителя из постановления&lt;br&gt;
+
+&lt;b&gt;{ФизЛицо}&lt;/b&gt; -  значение поля "Физическое лицо" в карточке протоколе&lt;br&gt;
+&lt;b&gt;{МестоРаботы}&lt;/b&gt; - Значение из поля Место работы в протоколе&lt;br&gt;
+&lt;b&gt;{Должность}&lt;/b&gt; - Значение из поля Должность в протоколе&lt;br&gt;
+&lt;b&gt;{ДатаМестоРождения}&lt;/b&gt; -  Значение из поля "Дата, место рождения" в протоколе&lt;br&gt;
+&lt;b&gt;{ДокументУдостовЛичность}&lt;/b&gt; -  Значение из поля "Документ, удостоверяющий личность" в протоколе&lt;br&gt;
+&lt;b&gt;{ЕГРЮЛ}&lt;/b&gt; - Значение поля Дата выписки из ЕГРЮЛ  из реквизитов Постановления&lt;br&gt;
+&lt;b&gt;{ШтрафДляЛица}&lt;/b&gt; - если тип исполнителя с кодом 0,2,4,8,9,18 то выводится значение  "Штраф для Юр. лица" для указанной статьи закона, если  тип исполнителя с кодом 1,3,5,6,7,10,19 то "Штраф для Физ.Лица". Тип числовой&lt;br&gt;
+&lt;b&gt;{ДатаРассмотренияДела}&lt;/b&gt; - из полей «Дата и время рассмотрения дела» в протоколе&lt;br&gt;
+&lt;b&gt;{Ходатайство}&lt;/b&gt; - выводится значение вкладки "Рассмотрение дела" из постановления одного из указанных вариантов&lt;br&gt;
+&lt;b&gt;{ТекстХодатайства}&lt;/b&gt; - выводится текст  поля "Текст ходатайства"&lt;br&gt;
+&lt;b&gt;{Присутствовали}&lt;/b&gt; - выводится значение вкладки "Рассмотрение дела" из постановления  полей "Присутствовали" &lt;br&gt;
+&lt;b&gt;{Пояснения}&lt;/b&gt; - выводится значение вкладки "Рассмотрение дела" из постановления  полей "Пояснения" &lt;br&gt;
+&lt;b&gt;{НомерДела}&lt;/b&gt; - Если постановление сформировано из приказа то Номер приказа, Если из Административного дела то Номер Административного дела&lt;br&gt;
+&lt;b&gt;{УстановилПост}&lt;/b&gt; - значения поля "Установил:" из реквизитов протокола.&lt;br&gt;
+&lt;b&gt;{УстановилПодр}&lt;/b&gt; - значения поля "Подробнее:" из реквизитов протокола.&lt;br&gt;</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>9a33e5128b3d41cbb98409c449cf2a0f</Guid>
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="103" />
+          <Parent isRef="103" />
+        </ReportTitleBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>c9cdccbb4d124c06bdf8a2073e9f4880</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page2</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="106" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page2>
+  </Pages>
+  <PrinterSettings Ref="107" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>9/8/2014 1:37:48 PM</ReportChanged>
+  <ReportCreated>9/1/2013 1:25:03 PM</ReportCreated>
+  <ReportFile>D:\работа\шаблоны\GJI\Tomsk\постановление ЮР+ДЛ.mrt</ReportFile>
+  <ReportGuid>4dde4f639f6f40bbab5c2829688d06e3</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2014.1.1900</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
